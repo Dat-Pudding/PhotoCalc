@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    string version = "[Win64 CLI pre-alpha_v0.0.1]";
+    string version = "[Win64 CLI pre-alpha_v0.1.0]";
     int menuPoint = 0;
     int menuInput = 0;
 
