@@ -1,4 +1,5 @@
 #include <iostream>
+#include "MenuLogic.h"
 #include "ExposureTimeMaths.h"
 #include "FieldOfViewMaths.h"
 #include "CameraDatabaseHandler.h"
@@ -7,9 +8,8 @@ using namespace std;
 
 int main()
 {
-    string version = "[Win64 CLI pre-alpha_v0.1.0]";
     int menuPoint = 0;
-    int menuInput = 0;
+    int mainMenuInput = 0;
 
     double crop = 1.0;
     int k = 0;
@@ -22,7 +22,6 @@ int main()
     double resultR300 = 0.0;
     double resultNPFs = 0.0;
     double resultNPF = 0.0;
-    string suffix = " seconds long lightframes\n";
     
     double fl = 0.0;
     double w = 0.0;
@@ -32,14 +31,15 @@ int main()
     double fovHeightAngle = 0.0;
     double fovDiagonalAngle = 0.0;
 
-    cout << "Photographer's Calculator " << version << endl << endl;
-    cout << "Choose:\n 1 - Exposure Times\n 2 - Angle of View\n 3 - Camera/Sensor Data\n";
-
     while (menuPoint == 0)
     {
-        cin >> menuInput;
+        MenuLogic Menus;
+        Menus.MenuHeader();
+        Menus.MainMenu();
 
-        switch (menuInput)
+        cin >> mainMenuInput;
+
+        switch (mainMenuInput)
         {
             case 0:
                 main();
@@ -47,22 +47,13 @@ int main()
 
             case 1:
                 ExposureTimeMaths expoC;
-                cout << "Exposure test Calculator\n\n";
-                cout << "Please enter your data in this format: crop k n p f theta\n\n";
-                cout << "Explanation:\n\n";
-                cout << " crop          - Your sensor's crop factor e.g.: 1.6, unitless\n";
-                cout << " k = 1/2/3     - Determines Precision (precise/normal/trailing), unitless\n";
-                cout << " n             - The lens' aperture, unitless\n";
-                cout << " p             - Pixelpitch of the Sensor in um\n";
-                cout << " f             - The lens' focal length in mm\n";
-                cout << " theta         - Declination of the target in degrees (enter 0 if unknown)\n\n";
-
+                Menus.MenuHeader();
+                Menus.ExpoMenu();
                 cin >> crop >> k >> n >> p >> f >> theta;
 
                 if (f == 0)
                 {
-                    cout << "Attempted division by 0!\n";
-                    cout << "Try again...\n";
+                    Menus.DivByZero();
                     continue;
                 }
                 else
@@ -71,33 +62,23 @@ int main()
                     resultR300 = expoC.CalculateR300(crop, f);
                     resultNPFs = expoC.CalculateNPFsimple(n, p, f);
                     resultNPF = expoC.CalculateNPFfull(k, n, p, f, theta);
-
-                    cout << "\nAccording to the Rule of 500 you can take up to " << resultR500 << suffix;
-                    cout << "According to the Rule of 300 you can take up to " << resultR300 << suffix;
-                    cout << "According to the simplified NPF-Rule you can take up to " << resultNPFs << suffix;
-                    cout << "According to the full NPF-Rule you can take up to " << resultNPF << suffix << "\n";
-                    cout << "Input 1 for another Exposure Length Calculation; Input 2 for a FoV Calculation; Ctrl+C to quit\n";
-                    menuInput = 0;
+                    Menus.ExpoResults(resultR500, resultR300, resultNPFs, resultNPF);
+                    mainMenuInput = 0;
                 }
-                menuInput = 0;
+                mainMenuInput = 0;
                 break;
                 
 
             case 2:
                 FieldOfViewMaths fovC;
-                cout << "FoV test Calculator\n\n";
-                cout << "Please enter your data in this format: fl w h \n\n";
-                cout << "Explanation:\n\n";
-                cout << " fl            - Your focal length in mm\n";
-                cout << " w             - Your sensor's long edge length in mm\n";
-                cout << " h             - Your sensor's short edge length in mm\n\n";
+                Menus.MenuHeader();
+                Menus.FovMenu();
 
                 cin >> fl >> w >> h;
 
                 if (fl == 0)
                 {
-                    cout << "Attempted division by 0!\n";
-                    cout << "Try again...\n";
+                    Menus.DivByZero();
                     continue;
                 }
                 else
@@ -105,21 +86,17 @@ int main()
                     fovWidthAngle = fovC.CalculateWidthFoV(fl, w);
                     fovHeightAngle = fovC.CalculateHeightFoV(fl, h);
                     fovDiagonalAngle = fovC.CalculateDiagonalFoV(fl, w, h);
-
-                    cout << "Your Angle of View along the long edge of your sensor is " << fovWidthAngle << " degrees\n";
-                    cout << "Your Angle of View along the short edge of your sensor is " << fovHeightAngle << " degrees\n";
-                    cout << "Your Angle of View along the diagonal of your sensor is " << fovDiagonalAngle << " degrees\n\n";
-                    cout << "Input 1 for an Exposure Length Calculation; Input 2 for another FoV Calculation; Ctrl+C to quit\n";
-                    menuInput = 0;
+                    Menus.FovResults(fovWidthAngle, fovHeightAngle, fovDiagonalAngle);
+                    mainMenuInput = 0;
                 }
-                menuInput = 0;
+                mainMenuInput = 0;
                 break;
 
            /* case 3:
                 CameraDatabaseHandler camDB;
                 cout << "Camera Test Database" << endl << endl;
                 cout << "Currently not finished, please come back later...";
-                menuInput = 0;
+                mainMenuInput = 0;
                 break;
                 */
             default:
