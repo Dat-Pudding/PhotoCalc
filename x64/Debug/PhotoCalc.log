@@ -1,4 +1,9 @@
-﻿  PhotoCalc.cpp
+﻿  ConstantsLib.cpp
+  ExposureTimeMaths.cpp
+  FieldOfViewMaths.cpp
+  MenuLogic.cpp
+  PhotoCalc.cpp
 A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(66,62): warning C4244: "Argument": Konvertierung von "double" in "char", möglicher Datenverlust
 A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(98,39): warning C4101: "camDB": Unreferenzierte lokale Variable
+  Code wird generiert...
   PhotoCalc.vcxproj -> A:\Projekt\Photocalc\PhotoCalc\x64\Debug\PhotoCalc.exe

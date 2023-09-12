@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CameraDatabaseHandler.cpp" />
+    <ClCompile Include="ConstantsLib.cpp" />
     <ClCompile Include="ExposureTimeMaths.cpp" />
     <ClCompile Include="FieldOfViewMaths.cpp" />
     <ClCompile Include="MenuLogic.cpp" />
@@ -135,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CameraDatabaseHandler.h" />
+    <ClInclude Include="ConstantsLib.h" />
     <ClInclude Include="ExposureTimeMaths.h" />
     <ClInclude Include="FieldOfViewMaths.h" />
     <ClInclude Include="MenuLogic.h" />
