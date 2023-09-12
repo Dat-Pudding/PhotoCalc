@@ -3,6 +3,8 @@
 #include "ExposureTimeMaths.h"
 #include "FieldOfViewMaths.h"
 #include "CameraDatabaseHandler.h"
+#include <conio.h>
+#include <dos.h>
 
 using namespace std;
 
@@ -38,7 +40,7 @@ int main()
         Menus.MainMenu();
 
         cin >> mainMenuInput;
-
+        system("cls");
         switch (mainMenuInput)
         {
             case 0:
@@ -92,13 +94,17 @@ int main()
                 mainMenuInput = 0;
                 break;
 
-           /* case 3:
+            case 3:
                 CameraDatabaseHandler camDB;
+                Menus.MenuHeader();
                 cout << "Camera Test Database" << endl << endl;
-                cout << "Currently not finished, please come back later...";
+                cout << "ERROR: Feature is not implemented yet\n";
+                cout << "(Press any key to continue)";
+                _getch();
+                system("cls");
                 mainMenuInput = 0;
                 break;
-                */
+                
             default:
                 main();
 

@@ -3,11 +3,13 @@
 #include "ExposureTimeMaths.h"
 #include "FieldOfViewMaths.h"
 #include "CameraDatabaseHandler.h"
+#include <conio.h>
+#include <dos.h>
 using namespace std;
 
 int MenuLogic::MenuHeader()
 {
-	string version = "[Win64 CLI pre-alpha_v0.1.1]";
+	string version = "[Win64 CLI pre-alpha_v0.1.2]";
 	string author = " by Joshua Ostwald";
 	cout << "Photographer's Calculator " + version + author + "\n\n";
 	return 0;
@@ -39,7 +41,10 @@ double MenuLogic::ExpoResults(double resultR500, double resultR300, double resul
     cout << "\nAccording to the Rule of 500 you can take up to " << resultR500 << suffix;
     cout << "According to the Rule of 300 you can take up to " << resultR300 << suffix;
     cout << "According to the simplified NPF-Rule you can take up to " << resultNPFs << suffix;
-    cout << "According to the full NPF-Rule you can take up to " << resultNPF << suffix << "\n";
+    cout << "According to the full NPF-Rule you can take up to " << resultNPF << suffix << "\n\n";
+    cout << "(Press any key to continue)";
+    _getch();
+    system("cls");
     //cout << "Input 1 for another Exposure Length Calculation; Input 2 for a FoV Calculation; Ctrl+C to quit\n";
     return 0;
 }
@@ -60,6 +65,9 @@ double MenuLogic::FovResults(double fovWidthAngle, double fovHeightAngle, double
     cout << "Your Angle of View along the long edge of your sensor is " << fovWidthAngle << " degrees\n";
     cout << "Your Angle of View along the short edge of your sensor is " << fovHeightAngle << " degrees\n";
     cout << "Your Angle of View along the diagonal of your sensor is " << fovDiagonalAngle << " degrees\n\n";
+    cout << "(Press any key to continue)";
+    _getch();
+    system("cls");
     //cout << "Input 1 for an Exposure Length Calculation; Input 2 for another FoV Calculation; Ctrl+C to quit\n";
     return 0.0;
 }
@@ -72,7 +80,10 @@ int MenuLogic::CamDBMenu()
 int MenuLogic::DivByZero()
 {
     cout << "Attempted division by 0!\n";
-    cout << "Try again...\n";
+    cout << "Try again...                                       (Press any key to continue)\n";
+    _getch();
+    system("cls");
+
     return 0;
 }
 
