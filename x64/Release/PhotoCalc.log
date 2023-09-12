@@ -1,11 +1,8 @@
 ﻿  MenuLogic.cpp
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.h(5,9): error C3646: "MenuHeader": Unbekannter Überschreibungsspezifizierer
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.h(5,19): error C2059: Syntaxfehler: "("
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.h(5,50): error C2238: Unerwartete(s) Token vor ";"
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.cpp(8,19): error C2039: "MenuHeader" ist kein Member von "MenuLogic".
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.h(2,7): message : Siehe Deklaration von "MenuLogic"
   PhotoCalc.cpp
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.h(5,9): error C3646: "MenuHeader": Unbekannter Überschreibungsspezifizierer
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.h(5,19): error C2059: Syntaxfehler: "("
-A:\Projekt\Photocalc\PhotoCalc\MenuLogic.h(5,50): error C2238: Unerwartete(s) Token vor ";"
-A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(75,62): warning C4244: "Argument": Konvertierung von "double" in "char", möglicher Datenverlust
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(64,62): warning C4244: "Argument": Konvertierung von "double" in "char", möglicher Datenverlust
+  Code wird generiert.
+  Compiler switch has changed, fall back to full compilation.
+  All 117 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  PhotoCalc.vcxproj -> A:\Projekt\Photocalc\PhotoCalc\x64\Release\PhotoCalc.exe
