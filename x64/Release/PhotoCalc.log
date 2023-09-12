@@ -1,8 +1,13 @@
-﻿  MenuLogic.cpp
+﻿  ConstantsLib.cpp
+  ExposureTimeMaths.cpp
+  FieldOfViewMaths.cpp
+  MenuLogic.cpp
   PhotoCalc.cpp
-A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(64,62): warning C4244: "Argument": Konvertierung von "double" in "char", möglicher Datenverlust
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(66,62): warning C4244: "Argument": Konvertierung von "double" in "char", möglicher Datenverlust
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(98,39): warning C4101: "camDB": Unreferenzierte lokale Variable
   Code wird generiert.
-  Compiler switch has changed, fall back to full compilation.
-  All 117 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  15 of 119 functions (12.6%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
   Codegenerierung ist abgeschlossen.
   PhotoCalc.vcxproj -> A:\Projekt\Photocalc\PhotoCalc\x64\Release\PhotoCalc.exe
