@@ -1,6 +1,6 @@
 # Prerequisites
 *.d
-.vs
+.vs/
 
 # Compiled Object files
 *.slo
@@ -32,6 +32,6 @@
 .vs/PhotoCalc/v17/Browse.VC.db
 *.vsidx
 *.db
-.vs/PhotoCalc/v17/.suo
+.vs/PhotoCalc/
 *.vsidx
 *.db
