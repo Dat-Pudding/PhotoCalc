@@ -19,12 +19,16 @@ int main()
     //double p = 0.0;
     //double f = 0.0;
     //double theta = 0.0;
+
+    // in this order: crop, k, n, p, f, theta
     double npfInputs[6] = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
     
     //double resultR500 = 0.0;
     //double resultR300 = 0.0;
     //double resultNPFs = 0.0;
     //double resultNPF = 0.0;
+
+    // in this order: R500, R300, NPFs, NPF
     double expoResults[4] = { 0.0, 0.0, 0.0, 0.0 };
     
     double fl = 0.0;
@@ -62,16 +66,15 @@ int main()
                 }
                 else
                 {
-                    expoResults[0] = expoC.CalculateR500(npfInputs, expoResults);
-                    expoResults[1] = expoC.CalculateR300(crop, f);
-                    expoResults[2] = expoC.CalculateNPFsimple(n, p, f);
-                    expoResults[3] = expoC.CalculateNPFfull(k, n, p, f, theta);
+                    expoResults[0] = expoC.CalculateR500(npfInputs[0, 4], expoResults[0]);
+                    expoResults[1] = expoC.CalculateR300(npfInputs[0, 4], expoResults[1]);
+                    expoResults[2] = expoC.CalculateNPFsimple(npfInputs[2, 4], expoResults[2]);
+                    expoResults[3] = expoC.CalculateNPFfull(npfInputs[0, 1, 2, 3, 4, 5], expoResults[3]);
                     Menus.ExpoResults(expoResults[0], expoResults[1], expoResults[2], expoResults[3]);
                     mainMenuInput = 0;
                 }
                 mainMenuInput = 0;
                 break;
-                
 
             case 2:
                 FieldOfViewMaths fovC;
@@ -105,8 +108,6 @@ int main()
                 
             default:
                 main();
-
-
         }
     }
     return 0;
