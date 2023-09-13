@@ -1,13 +1,22 @@
-﻿  ConstantsLib.cpp
+﻿  ArrayLib.cpp
   ExposureTimeMaths.cpp
-  FieldOfViewMaths.cpp
+A:\Projekt\Photocalc\PhotoCalc\ExposureTimeMaths.h(5,23): error C2061: Syntaxfehler: Bezeichner "npfInputs"
+A:\Projekt\Photocalc\PhotoCalc\ExposureTimeMaths.cpp(5,27): error C2511: "double ExposureTimeMaths::CalculateR500(double [])": Überladene Memberfunktion nicht in "ExposureTimeMaths" gefunden
+A:\Projekt\Photocalc\PhotoCalc\ExposureTimeMaths.h(2,7): message : Siehe Deklaration von "ExposureTimeMaths"
   MenuLogic.cpp
+A:\Projekt\Photocalc\PhotoCalc\ExposureTimeMaths.h(5,23): error C2061: Syntaxfehler: Bezeichner "npfInputs"
   PhotoCalc.cpp
-A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(66,62): warning C4244: "Argument": Konvertierung von "double" in "char", möglicher Datenverlust
-A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(98,39): warning C4101: "camDB": Unreferenzierte lokale Variable
-  Code wird generiert.
-  15 of 119 functions (12.6%) were compiled, the rest were copied from previous compilation.
-    2 functions were new in current compilation
-    7 functions had inline decision re-evaluated but remain unchanged
-  Codegenerierung ist abgeschlossen.
-  PhotoCalc.vcxproj -> A:\Projekt\Photocalc\PhotoCalc\x64\Release\PhotoCalc.exe
+A:\Projekt\Photocalc\PhotoCalc\ExposureTimeMaths.h(5,23): error C2061: Syntaxfehler: Bezeichner "npfInputs"
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(65,43): error C2660: "ExposureTimeMaths::CalculateR500": Funktion akzeptiert keine 2 Argumente
+A:\Projekt\Photocalc\PhotoCalc\ExposureTimeMaths.h(5,9): message : Siehe Deklaration von "ExposureTimeMaths::CalculateR500"
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(65,43): message : bei Anpassung der Argumentliste "(double [6], double [4])"
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(66,58): error C2065: "crop": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(66,64): error C2065: "f": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(67,63): error C2065: "n": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(67,66): error C2065: "p": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(67,69): error C2065: "f": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(68,61): error C2065: "k": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(68,64): error C2065: "n": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(68,67): error C2065: "p": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(68,70): error C2065: "f": nichtdeklarierter Bezeichner
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(68,73): error C2065: "theta": nichtdeklarierter Bezeichner

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayLib.cpp" />
     <ClCompile Include="CameraDatabaseHandler.cpp" />
     <ClCompile Include="ConstantsLib.cpp" />
     <ClCompile Include="ExposureTimeMaths.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="PhotoCalc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayLib.h" />
     <ClInclude Include="CameraDatabaseHandler.h" />
     <ClInclude Include="ConstantsLib.h" />
     <ClInclude Include="ExposureTimeMaths.h" />

@@ -2,24 +2,24 @@
 #include "ConstantsLib.h"
 #include <cmath>
 
-double ExposureTimeMaths::CalculateR500(double crop, double f)
+double ExposureTimeMaths::CalculateR500(double npfInputs[], double expoResults)
 {
-    return 500 / (crop * f);
+    return 500 / (npfInputs[0] * npfInputs[4]);
 }
 
-double ExposureTimeMaths::CalculateR300(double crop, double f)
+double ExposureTimeMaths::CalculateR300(double npfInputs[])
 {
-    return 300 / (crop * f);
+    return 300 / (npfInputs[0] * npfInputs[4]);
 }
 
-double ExposureTimeMaths::CalculateNPFsimple(double n, double p, double f)
+double ExposureTimeMaths::CalculateNPFsimple(double npfInputs[])
 {
-    return (35 * n + 30 * p) / f;
+    return (35 * n + 30 * npfInputs[2]) / npfInputs[4];
 }
 
-double ExposureTimeMaths::CalculateNPFfull(int k, double n, char p, double f, double theta)
+double ExposureTimeMaths::CalculateNPFfull(double npfInputs[])
 {
     ConstantsLib constant;
     double pi = constant.Pi();
-    return k * ((16.856 * n + 0.0997 * f + 13.713 * p) / (f * cos(theta * (180 / pi))));
+    return npfInputs[0] * ((16.856 * npfInputs[2] + 0.0997 * npfInputs[4] + 13.713 * npfInputs[3]) / (npfInputs[4] * cos(npfInputs[5] * (180 / pi))));
 }
