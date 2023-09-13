@@ -1,8 +1,9 @@
 #include "ExposureTimeMaths.h"
 #include "ConstantsLib.h"
 #include <cmath>
+using namespace std;
 
-double ExposureTimeMaths::CalculateR500(double npfInputs[], double expoResults[])
+double ExposureTimeMaths::CalculateR500(double* npfInputs[], double expoResults)
 {
     return 500 / (npfInputs[0] * npfInputs[4]);
 }
