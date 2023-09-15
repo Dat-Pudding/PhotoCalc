@@ -1,7 +1,6 @@
 #include <iostream>
 #include "MenuLogic.h"
-#include "ExposureTimeMaths.h"
-#include "FieldOfViewMaths.h"
+#include "MathsCompendium.h"
 #include "CameraDatabaseHandler.h"
 #include <conio.h>
 #include <dos.h>
@@ -13,17 +12,17 @@ int main()
     int menuPoint = 0;
     int mainMenuInput = 0;
 
-    double crop = 1.0;
-    int k = 0;
-    double f = 0.0;
-    double p = 0.0;
-    double n = 0.0;
-    double theta = 0.0;
+    // in this order: crop, k, n, p, f, theta
+    double npfInputs[6] = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
 
-    double resultR500 = 0.0;
-    double resultR300 = 0.0;
-    double resultNPFs = 0.0;
-    double resultNPF = 0.0;
+    // in this order: f, w, h
+    double fovInputs[3] = { 0.0, 0.0, 0.0 };
+
+    // in this order: R500, R300, NPFs, NPF
+    double expoResults[4] = { 0.0, 0.0, 0.0, 0.0 };
+
+    // in this order: width-wise, height-wise, diagonally
+    double fovResults[3] = { 0.0, 0.0, 0.0 };
     
     double fl = 0.0;
     double w = 0.0;
@@ -48,46 +47,45 @@ int main()
                 break;
 
             case 1:
-                ExposureTimeMaths expoC;
+                MathsCompendium expoC;
                 Menus.MenuHeader();
                 Menus.ExpoMenu();
-                cin >> crop >> k >> n >> p >> f >> theta;
+                cin >> npfInputs[0] >> npfInputs[1] >> npfInputs[2] >> npfInputs[3] >> npfInputs[4] >> npfInputs[5];
 
-                if (f == 0)
+                if (npfInputs[4] == 0)
                 {
                     Menus.DivByZero();
                     continue;
                 }
                 else
                 {
-                    resultR500 = expoC.CalculateR500(crop, f);
-                    resultR300 = expoC.CalculateR300(crop, f);
-                    resultNPFs = expoC.CalculateNPFsimple(n, p, f);
-                    resultNPF = expoC.CalculateNPFfull(k, n, p, f, theta);
-                    Menus.ExpoResults(resultR500, resultR300, resultNPFs, resultNPF);
+                    expoResults[0] = expoC.CalculateR500(npfInputs, expoResults[0]);
+                    expoResults[1] = expoC.CalculateR300(npfInputs, expoResults);
+                    expoResults[2] = expoC.CalculateNPFsimple(npfInputs, expoResults);
+                    expoResults[3] = expoC.CalculateNPFfull(npfInputs, expoResults);
+                    Menus.ExpoResults(expoResults[0], expoResults[1], expoResults[2], expoResults[3]);
                     mainMenuInput = 0;
                 }
                 mainMenuInput = 0;
                 break;
-                
 
             case 2:
-                FieldOfViewMaths fovC;
+                MathsCompendium fovC;
                 Menus.MenuHeader();
                 Menus.FovMenu();
 
-                cin >> fl >> w >> h;
+                cin >> fovInputs[0] >> fovInputs[1] >> fovInputs[2];
 
-                if (fl == 0)
+                if (fovInputs[0] == 0)
                 {
                     Menus.DivByZero();
                     continue;
                 }
                 else
                 {
-                    fovWidthAngle = fovC.CalculateWidthFoV(fl, w);
-                    fovHeightAngle = fovC.CalculateHeightFoV(fl, h);
-                    fovDiagonalAngle = fovC.CalculateDiagonalFoV(fl, w, h);
+                    fovWidthAngle = fovC.CalculateWidthFoV(fovInputs, fovResults[1]);
+                    fovHeightAngle = fovC.CalculateHeightFoV(fovInputs, fovResults);
+                    fovDiagonalAngle = fovC.CalculateDiagonalFoV(fovInputs, fovResults);
                     Menus.FovResults(fovWidthAngle, fovHeightAngle, fovDiagonalAngle);
                     mainMenuInput = 0;
                 }
@@ -97,18 +95,12 @@ int main()
             case 3:
                 CameraDatabaseHandler camDB;
                 Menus.MenuHeader();
-                cout << "Camera Test Database" << endl << endl;
-                cout << "ERROR: Feature is not implemented yet\n";
-                cout << "(Press any key to continue)";
-                _getch();
-                system("cls");
+                Menus.CamDBMenu();
                 mainMenuInput = 0;
                 break;
                 
             default:
                 main();
-
-
         }
     }
     return 0;

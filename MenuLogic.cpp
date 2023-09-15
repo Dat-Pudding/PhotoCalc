@@ -1,7 +1,5 @@
 #include <iostream>
 #include "MenuLogic.h"
-#include "ExposureTimeMaths.h"
-#include "FieldOfViewMaths.h"
 #include "CameraDatabaseHandler.h"
 #include <conio.h>
 #include <dos.h>
@@ -23,7 +21,7 @@ int MenuLogic::MainMenu()
 
 int MenuLogic::ExpoMenu()
 {
-    cout << "Exposure test Calculator\n\n";
+    cout << "Exposure Length test Calculator                 NPF-Rule (C)Frederic Michaud & Societe Atronomique du Havre (SAH)\n\n";
     cout << "Please enter your data in this format: crop k n p f theta\n\n";
     cout << "Explanation:\n\n";
     cout << " crop          - Your sensor's crop factor e.g.: 1.6, unitless\n";
@@ -45,13 +43,12 @@ double MenuLogic::ExpoResults(double resultR500, double resultR300, double resul
     cout << "(Press any key to continue)";
     _getch();
     system("cls");
-    //cout << "Input 1 for another Exposure Length Calculation; Input 2 for a FoV Calculation; Ctrl+C to quit\n";
     return 0;
 }
 
 int MenuLogic::FovMenu()
 {
-    cout << "FoV test Calculator\n\n";
+    cout << "FoV test Calculator                       courtesy of Elmar Baumann\n\n";
     cout << "Please enter your data in this format: fl w h \n\n";
     cout << "Explanation:\n\n";
     cout << " fl            - Your focal length in mm\n";
@@ -68,12 +65,16 @@ double MenuLogic::FovResults(double fovWidthAngle, double fovHeightAngle, double
     cout << "(Press any key to continue)";
     _getch();
     system("cls");
-    //cout << "Input 1 for an Exposure Length Calculation; Input 2 for another FoV Calculation; Ctrl+C to quit\n";
     return 0.0;
 }
 
 int MenuLogic::CamDBMenu()
 {
+    cout << "Camera Test Database" << endl << endl;
+    cout << "ERROR: Feature is not implemented yet\n";
+    cout << "(Press any key to continue)";
+    _getch();
+    system("cls");
     return 0;
 }
 
