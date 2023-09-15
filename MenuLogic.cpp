@@ -1,7 +1,5 @@
 #include <iostream>
 #include "MenuLogic.h"
-#include "ExposureTimeMaths.h"
-#include "FieldOfViewMaths.h"
 #include "CameraDatabaseHandler.h"
 #include <conio.h>
 #include <dos.h>
@@ -23,7 +21,7 @@ int MenuLogic::MainMenu()
 
 int MenuLogic::ExpoMenu()
 {
-    cout << "Exposure Length test Calculator                   courtesy of Frédéric Michaud and the Société Atronomique du Havre (SAH)\n\n";
+    cout << "Exposure Length test Calculator                 NPF-Rule (C)Frederic Michaud & Societe Atronomique du Havre (SAH)\n\n";
     cout << "Please enter your data in this format: crop k n p f theta\n\n";
     cout << "Explanation:\n\n";
     cout << " crop          - Your sensor's crop factor e.g.: 1.6, unitless\n";
@@ -50,7 +48,7 @@ double MenuLogic::ExpoResults(double resultR500, double resultR300, double resul
 
 int MenuLogic::FovMenu()
 {
-    cout << "FoV test Calculator                                courtesy of Elmar Baumann\n\n";
+    cout << "FoV test Calculator                       courtesy of Elmar Baumann\n\n";
     cout << "Please enter your data in this format: fl w h \n\n";
     cout << "Explanation:\n\n";
     cout << " fl            - Your focal length in mm\n";

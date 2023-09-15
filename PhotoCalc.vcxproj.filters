@@ -18,13 +18,7 @@
     <ClCompile Include="PhotoCalc.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="ExposureTimeMaths.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="MenuLogic.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="FieldOfViewMaths.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="CameraDatabaseHandler.cpp">
@@ -33,18 +27,12 @@
     <ClCompile Include="ConstantsLib.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayLib.cpp">
+    <ClCompile Include="MathsCompendium.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ExposureTimeMaths.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="MenuLogic.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="FieldOfViewMaths.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="CameraDatabaseHandler.h">
@@ -53,7 +41,7 @@
     <ClInclude Include="ConstantsLib.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="ArrayLib.h">
+    <ClInclude Include="MathsCompendium.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

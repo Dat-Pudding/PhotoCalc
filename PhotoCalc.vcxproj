@@ -127,20 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayLib.cpp" />
     <ClCompile Include="CameraDatabaseHandler.cpp" />
     <ClCompile Include="ConstantsLib.cpp" />
-    <ClCompile Include="ExposureTimeMaths.cpp" />
-    <ClCompile Include="FieldOfViewMaths.cpp" />
+    <ClCompile Include="MathsCompendium.cpp" />
     <ClCompile Include="MenuLogic.cpp" />
     <ClCompile Include="PhotoCalc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayLib.h" />
     <ClInclude Include="CameraDatabaseHandler.h" />
     <ClInclude Include="ConstantsLib.h" />
-    <ClInclude Include="ExposureTimeMaths.h" />
-    <ClInclude Include="FieldOfViewMaths.h" />
+    <ClInclude Include="MathsCompendium.h" />
     <ClInclude Include="MenuLogic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
