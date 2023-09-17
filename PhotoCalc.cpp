@@ -23,10 +23,6 @@ int main()
 
     // in this order: width-wise, height-wise, diagonally
     double fovResults[3] = { 0.0, 0.0, 0.0 };
-    
-    double fl = 0.0;
-    double w = 0.0;
-    double h = 0.0;
 
     double fovWidthAngle = 0.0;
     double fovHeightAngle = 0.0;
