@@ -35,7 +35,7 @@ Also integrated is the capability to calculate the respective field of view alon
 The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
 Additionally the "Rule of 300" approximation is now a "Rule of your custom integer number" though 260 for full frame and 350 for APS-C crop cameras seem to be the most accurate ones that a normal person can still easily memorise.
 
-As of now you can already save sensor profiles but bot read them in again, so in the near future you won't have to type in the dimensions each time you start the application.
+As of now you can already save sensor profiles but not read them in again, so in the near future you won't have to type in the dimensions each time you start the application.
 
 #### Lore
 - the Unity version just serves as example for "How **NOT** to design a desktop UI" - it's just clunky, ugly and disgusting to use
