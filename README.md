@@ -1,12 +1,12 @@
 # Who is this for?
-This application is sepcifically for freshly starting-out astro photographers while also providing useful features for intermediate amateurs.
-Since the average beginner isn't decked out with tracking mount, means to create proper flats or a red light source for use as a flashlight, the android app is recommended for it's feature set specifically addressing these "hardware issues" for field-use. 
-Not even more advanced amateurs might be able to tell off-the-cuff which focal length they'd need to nicely fit their desired subject into the frame let alone beginners.
+This application is specifically for freshly starting-out astro photographers while also providing useful features for intermediate amateurs.
+Since the average beginner isn't decked out with a tracking mount, means to create proper flats or a red light source for use as a flashlight, the android app is recommended for it's feature set specifically addressing these "hardware issues" for field-use. 
+Not even more advanced amateurs might be able to say off-the-cuff which focal length they'd need to nicely fit their desired subject into the frame let alone beginners.
 
 # What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
 
-Every version contains a bunch of specific formulae and accepts your setup's specifications as Inputs for these aforementioned formulae.
+Every version contains a bunch of specific formulae and accepts your setup's specifications as Inputs.
 It will then proceed to present you the requested results.
 
 ## What can each version do specifically?
