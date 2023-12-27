@@ -6,8 +6,8 @@ Not even more advanced amateurs might be able to tell off-the-cuff which focal l
 # What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
 
-Every version contains a bunch of specific formulae and accepts your setup's specifications as Inputs for these formulae.
-It will then present you the requested results.
+Every version contains a bunch of specific formulae and accepts your setup's specifications as Inputs for these aforementioned formulae.
+It will then proceed to present you the requested results.
 
 ## What can each version do specifically?
 ### Windows CLI
