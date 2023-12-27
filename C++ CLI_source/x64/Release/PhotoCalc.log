@@ -1,0 +1,11 @@
+﻿  CameraDatabaseHandler.cpp
+  ConstantsLib.cpp
+  MathsCompendium.cpp
+  MenuLogic.cpp
+  PhotoCalc.cpp
+A:\Projekt\Photocalc\PhotoCalc\PhotoCalc.cpp(96,39): warning C4101: "camDB": Unreferenzierte lokale Variable
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+  All 120 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  PhotoCalc.vcxproj -> A:\Projekt\Photocalc\PhotoCalc\x64\Release\PhotoCalc.exe
