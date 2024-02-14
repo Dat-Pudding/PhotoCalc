@@ -24,9 +24,6 @@
     <ClCompile Include="CameraDatabaseHandler.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="ConstantsLib.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="MathsCompendium.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
@@ -36,9 +33,6 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="CameraDatabaseHandler.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="ConstantsLib.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="MathsCompendium.h">

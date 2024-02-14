@@ -183,14 +183,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CameraDatabaseHandler.cpp" />
-    <ClCompile Include="ConstantsLib.cpp" />
     <ClCompile Include="MathsCompendium.cpp" />
     <ClCompile Include="MenuLogic.cpp" />
     <ClCompile Include="PhotoCalc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CameraDatabaseHandler.h" />
-    <ClInclude Include="ConstantsLib.h" />
     <ClInclude Include="MathsCompendium.h" />
     <ClInclude Include="MenuLogic.h" />
     <ClInclude Include="resource.h" />

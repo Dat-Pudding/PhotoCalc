@@ -1,5 +1,2 @@
 ﻿  MathsCompendium.cpp
-  PhotoCalc.cpp
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\PhotoCalc.cpp(97,39): warning C4101: "camDB": Unreferenzierte lokale Variable
-  Code wird generiert...
   PhotoCalc.vcxproj -> C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\x64\Debug\PhotoCalc.exe
