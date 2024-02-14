@@ -2,13 +2,18 @@
 class MenuLogic
 {
 public:
+	// menu stuff
 	int MenuHeader();
 	int MainMenu();
 	int ExpoMenu();
-	double ExpoResults(double resultR500, double resultR300, double resultNPFs, double resultNPF);
 	int FovMenu();
-	double FovResults(double fovWidthAngle, double fovHeightAngle, double fovDiagonalAngle);
 	int CamDBMenu();
+
+	// transfer to output line
+	double ExpoResults(double resultR500, double resultR300, double resultNPFs, double resultNPF);
+	double FovResults(double fovWidthAngle, double fovHeightAngle, double fovDiagonalAngle);
+
+	// App-internal functions
 	int DivByZero();
 	int MenuReset();
 };

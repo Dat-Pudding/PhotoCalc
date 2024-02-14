@@ -21,9 +21,9 @@ int main()
     // in this order: R500, R300, NPFs, NPF
     double expoResults[4] = { 0.0, 0.0, 0.0, 0.0 };
 
-    // in this order: width-wise, height-wise, diagonally
-    double fovResults[3] = { 0.0, 0.0, 0.0 };
 
+    MathsCompendium expoC;
+    MathsCompendium fovC;
     double fovWidthAngle = 0.0;
     double fovHeightAngle = 0.0;
     double fovDiagonalAngle = 0.0;
@@ -43,7 +43,7 @@ int main()
                 break;
 
             case 1:
-                MathsCompendium expoC;
+
                 Menus.MenuHeader();
                 Menus.ExpoMenu();
                 cin >> npfInputs[0] >> npfInputs[1] >> npfInputs[2] >> npfInputs[3] >> npfInputs[4] >> npfInputs[5];
@@ -59,6 +59,7 @@ int main()
                     expoResults[1] = expoC.CalculateR300(npfInputs, expoResults);
                     expoResults[2] = expoC.CalculateNPFsimple(npfInputs, expoResults);
                     expoResults[3] = expoC.CalculateNPFfull(npfInputs, expoResults);
+
                     Menus.ExpoResults(expoResults[0], expoResults[1], expoResults[2], expoResults[3]);
                     mainMenuInput = 0;
                 }
@@ -66,10 +67,10 @@ int main()
                 break;
 
             case 2:
-                MathsCompendium fovC;
+
                 Menus.MenuHeader();
                 Menus.FovMenu();
-
+                
                 cin >> fovInputs[0] >> fovInputs[1] >> fovInputs[2];
 
                 if (fovInputs[0] == 0)
@@ -79,12 +80,11 @@ int main()
                 }
                 else
                 {
-                    fovWidthAngle = fovC.CalculateWidthFoV(fovInputs, fovResults[1]);
-                    fovHeightAngle = fovC.CalculateHeightFoV(fovInputs, fovResults);
-                    fovDiagonalAngle = fovC.CalculateDiagonalFoV(fovInputs, fovResults);
-                    Menus.FovResults(fovWidthAngle, fovHeightAngle, fovDiagonalAngle);
+                    fovC.CalcFoV(fovInputs);
+                    Menus.FovResults(fovC.fovResults[0], fovC.fovResults[1], fovC.fovResults[2]);
                     mainMenuInput = 0;
                 }
+
                 mainMenuInput = 0;
                 break;
 

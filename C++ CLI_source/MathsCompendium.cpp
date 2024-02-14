@@ -2,6 +2,7 @@
 #include "ConstantsLib.h"
 #include <cmath>
 
+
 //////////////////////////////////////////////////////////////////////////////////
 // EXPOSURE LENGHTS
 double MathsCompendium::CalculateR500(double npfInputs[], double expoResults)
@@ -29,24 +30,11 @@ double MathsCompendium::CalculateNPFfull(double npfInputs[], double expoResults[
 
 //////////////////////////////////////////////////////////////////////////////////
 // FIELD OF VIEW
-double MathsCompendium::CalculateWidthFoV(double fovInputs[], double fovResults)
+double MathsCompendium::CalcFoV(double fovInputs[])
 {
-    ConstantsLib constant;
-    double pi = constant.Pi();
-    return ((2 * atan(fovInputs[1] / (2 * fovInputs[0]))) * (180 / pi));
-}
+    fovResults[0] = ((2 * atan(fovInputs[1] / (2 * fovInputs[0]))) * (180 / pi));
+    fovResults[1] = ((2 * atan(fovInputs[2] / (2 * fovInputs[0]))) * (180 / pi));
+    fovResults[2] = sqrt((fovInputs[1] * fovInputs[1] + fovInputs[2] * fovInputs[2]));
 
-double MathsCompendium::CalculateHeightFoV(double fovInputs[], double fovResults[])
-{
-    ConstantsLib constant;
-    double pi = constant.Pi();
-    return ((2 * atan(fovInputs[2] / (2 * fovInputs[0]))) * (180 / pi));
-}
-
-double MathsCompendium::CalculateDiagonalFoV(double fovInputs[], double fovResults[])
-{
-    ConstantsLib constant;
-    double pi = constant.Pi();
-    double diagonal = sqrt((fovInputs[1] * fovInputs[1] + fovInputs[2] * fovInputs[2]));
-    return ((2 * atan(diagonal / (2 * fovInputs[0]))) * (180 / pi));
+    return fovResults[0], fovResults[1], fovResults[2];
 }
