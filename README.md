@@ -26,7 +26,6 @@ Also integrated is the capability to calculate the respective field of view alon
 
 #### To-Do:
 - fix the menu ("back" option)
-- consolidate functions in code
 - port to and test on linux
 - find a way to port to and test on macOS
 
