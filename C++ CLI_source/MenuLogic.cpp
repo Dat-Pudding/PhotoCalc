@@ -5,21 +5,19 @@
 #include <dos.h>
 using namespace std;
 
-int MenuLogic::MenuHeader()
+void MenuLogic::MenuHeader()
 {
 	string version = "[Win64 CLI alpha_v0.2.1]";
 	string author = " by Joshua Ostwald";
 	cout << "Photographer's Calculator " + version + author + "\n\n";
-	return 0;
 }
 
-int MenuLogic::MainMenu()
+void MenuLogic::MainMenu()
 {
     cout << "Choose:\n 1 - Exposure Times\n 2 - Angle of View\n 3 - Camera/Sensor Data\n";
-	return 0;
 }
 
-int MenuLogic::ExpoMenu()
+void MenuLogic::ExpoMenu()
 {
     cout << "Exposure Length test Calculator                 NPF-Rule (C)Frederic Michaud & Societe Atronomique du Havre (SAH)\n\n";
     cout << "Please enter your data in this format: crop k n p f theta\n\n";
@@ -30,10 +28,9 @@ int MenuLogic::ExpoMenu()
     cout << " p             - Pixelpitch of the Sensor in um\n";
     cout << " f             - The lens' focal length in mm\n";
     cout << " theta         - Declination of the target in degrees (enter 0 if unknown)\n\n";
-    return 0;
 }
 
-double MenuLogic::ExpoResults(double resultR500, double resultR300, double resultNPFs, double resultNPF)
+void MenuLogic::ExpoResults(double resultR500, double resultR300, double resultNPFs, double resultNPF)
 {
     string suffix = " seconds long lightframes\n";
     cout << "\nAccording to the Rule of 500 you can take up to " << resultR500 << suffix;
@@ -43,10 +40,9 @@ double MenuLogic::ExpoResults(double resultR500, double resultR300, double resul
     cout << "(Press any key to continue)";
     _getch();
     system("cls");
-    return 0;
 }
 
-int MenuLogic::FovMenu()
+void MenuLogic::FovMenu()
 {
     cout << "FoV Calculator\n\n";
     cout << "Please enter your data in this format: fl w h \n\n";
@@ -54,10 +50,9 @@ int MenuLogic::FovMenu()
     cout << " fl            - Your focal length in mm\n";
     cout << " w             - Your sensor's long edge length in mm\n";
     cout << " h             - Your sensor's short edge length in mm\n\n";
-    return 0;
 }
 
-double MenuLogic::FovResults(double fovWidthAngle, double fovHeightAngle, double fovDiagonalAngle)
+void MenuLogic::FovResults(double fovWidthAngle, double fovHeightAngle, double fovDiagonalAngle)
 {
     cout << "Your Angle of View along the long edge of your sensor is " << fovWidthAngle << " degrees\n";
     cout << "Your Angle of View along the short edge of your sensor is " << fovHeightAngle << " degrees\n";
@@ -65,30 +60,26 @@ double MenuLogic::FovResults(double fovWidthAngle, double fovHeightAngle, double
     cout << "(Press any key to continue)";
     _getch();
     system("cls");
-    return 0.0;
 }
 
-int MenuLogic::CamDBMenu()
+void MenuLogic::CamDBMenu()
 {
     cout << "Camera Test Database" << endl << endl;
     cout << "ERROR: Feature is not implemented yet\n";
     cout << "(Press any key to continue)";
     _getch();
     system("cls");
-    return 0;
 }
 
-int MenuLogic::DivByZero()
+void MenuLogic::DivByZero()
 {
     cout << "Attempted division by 0!\n";
     cout << "Try again...                                       (Press any key to continue)\n";
     _getch();
     system("cls");
-
-    return 0;
 }
 
-int MenuLogic::MenuReset()
+void MenuLogic::MenuReset()
 {
-    return 0;
+
 }
