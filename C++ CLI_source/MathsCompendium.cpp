@@ -11,7 +11,8 @@ void ExposureLength::CalcExpo()
 
 void FieldOfView::CalcFov()
 {
-	Output.widthFov = 2 * atan(Input.sensorWidth / (2 * Input.focalLength) * (constant.HALF_CIRCLE_DEGREES / constant.PI));
-	Output.heightFov = 2 * atan(Input.sensorWidth / (2 * Input.focalLength) * (constant.HALF_CIRCLE_DEGREES / constant.PI));
-	Output.diagFov = sqrt(Input.sensorHeight * Input.sensorHeight + Input.sensorWidth * Input.sensorWidth);
+	Output.widthFov = 2 * atan(Input.sensorWidth / (2 * Input.focalLength)) * (180 / constant.PI);
+	Output.heightFov = 2 * atan(Input.sensorHeight / (2 * Input.focalLength)) * (constant.HALF_CIRCLE_DEGREES / constant.PI);
+	double diagonal = sqrt(Input.sensorHeight * Input.sensorHeight + Input.sensorWidth * Input.sensorWidth);
+	Output.diagFov = 2 * atan(diagonal / (2 * Input.focalLength)) * (constant.HALF_CIRCLE_DEGREES / constant.PI);
 };

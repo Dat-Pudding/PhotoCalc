@@ -1,8 +1,8 @@
 #include <iostream>
+#include <conio.h>
 #include "MenuLogic.h"
 #include "MathsCompendium.h"
 #include "CameraDatabaseHandler.h"
-#include <conio.h>
 #include <dos.h>
 
 using namespace std;

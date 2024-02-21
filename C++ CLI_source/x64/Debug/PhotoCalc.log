@@ -1,40 +1,5 @@
-﻿  CameraDatabaseHandler.cpp
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(5,9): error C3646: "brand": Unbekannter Überschreibungsspezifizierer
-  (Quelldatei „CameraDatabaseHandler.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(5,14): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
-  (Quelldatei „CameraDatabaseHandler.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(6,9): error C3646: "model": Unbekannter Überschreibungsspezifizierer
-  (Quelldatei „CameraDatabaseHandler.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(6,14): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
-  (Quelldatei „CameraDatabaseHandler.cpp“ wird kompiliert)
-  
-  MenuLogic.cpp
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(5,9): error C3646: "brand": Unbekannter Überschreibungsspezifizierer
-  (Quelldatei „MenuLogic.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(5,14): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
-  (Quelldatei „MenuLogic.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(6,9): error C3646: "model": Unbekannter Überschreibungsspezifizierer
-  (Quelldatei „MenuLogic.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(6,14): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
-  (Quelldatei „MenuLogic.cpp“ wird kompiliert)
-  
+﻿  MathsCompendium.cpp
   PhotoCalc.cpp
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(5,9): error C3646: "brand": Unbekannter Überschreibungsspezifizierer
-  (Quelldatei „PhotoCalc.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(5,14): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
-  (Quelldatei „PhotoCalc.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(6,9): error C3646: "model": Unbekannter Überschreibungsspezifizierer
-  (Quelldatei „PhotoCalc.cpp“ wird kompiliert)
-  
-C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\CameraDatabaseHandler.h(6,14): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
-  (Quelldatei „PhotoCalc.cpp“ wird kompiliert)
-  
+C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\PhotoCalc.cpp(77,39): warning C4101: "camDB": Unreferenzierte lokale Variable
   Code wird generiert...
+  PhotoCalc.vcxproj -> C:\Users\ostwa\Documents\GitHub\PhotoCalc\C++ CLI_source\x64\Debug\PhotoCalc.exe
