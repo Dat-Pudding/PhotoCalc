@@ -9,17 +9,11 @@ using namespace std;
 
 int main()
 {
-    MathsCompendium expoC;
-    MathsCompendium fovC;
+    ExposureLength expo;
+    FieldOfView fov;
 
     int menuPoint = 0;
     int mainMenuInput = 0;
-
-    // in this order: crop, k, n, p, f, theta
-    double npfInputs[6] = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
-
-    // in this order: f, w, h
-    double fovInputs[3] = { 0.0, 0.0, 0.0 };
 
     while (menuPoint == 0)
     {
@@ -40,17 +34,18 @@ int main()
                 Menus.MenuHeader();
                 Menus.ExpoMenu();
 
-                cin >> npfInputs[0] >> npfInputs[1] >> npfInputs[2] >> npfInputs[3] >> npfInputs[4] >> npfInputs[5];
 
-                if (npfInputs[4] == 0)
+                cin >> expo.Input.cropFactor >> expo.Input.precision >> expo.Input.aperture >> expo.Input.pixelPitch >> expo.Input.focalLength >> expo.Input.declinationTheta;
+
+                if (expo.Input.focalLength == 0)
                 {
                     Menus.DivByZero();
                     continue;
                 }
                 else
                 {
-                    expoC.CalcExpo(npfInputs);
-                    Menus.ExpoResults(expoC.expoResults[0], expoC.expoResults[1], expoC.expoResults[2], expoC.expoResults[3]);
+                    expo.CalcExpo();
+                    Menus.ExpoResults(expo.Output.R500, expo.Output.R300, expo.Output.NPFs, expo.Output.NPF);
                     mainMenuInput = 0;
                 }
                 mainMenuInput = 0;
@@ -60,18 +55,18 @@ int main()
 
                 Menus.MenuHeader();
                 Menus.FovMenu();
-          
-                cin >> fovInputs[0] >> fovInputs[1] >> fovInputs[2];
 
-                if (fovInputs[0] == 0)
+                cin >> fov.Input.focalLength >> fov.Input.sensorWidth >> fov.Input.sensorHeight;
+
+                if (fov.Input.focalLength == 0)
                 {
                     Menus.DivByZero();
                     continue;
                 }
                 else
                 {
-                    fovC.CalcFoV(fovInputs);
-                    Menus.FovResults(fovC.fovResults[0], fovC.fovResults[1], fovC.fovResults[2]);
+                    fov.CalcFov();
+                    Menus.FovResults(fov.Output.widthFov, fov.Output.heightFov, fov.Output.diagFov);
                     mainMenuInput = 0;
                 }
 
@@ -84,11 +79,10 @@ int main()
                 Menus.CamDBMenu();
                 mainMenuInput = 0;
                 break;
-                
+
             default:
                 main();
         }
     }
     return 0;
 }
- 

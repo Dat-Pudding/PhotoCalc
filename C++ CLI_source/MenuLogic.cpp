@@ -19,12 +19,12 @@ int MenuLogic::MainMenu()
 	return 0;
 }
 
-int MenuLogic::ExpoMenu() 
+int MenuLogic::ExpoMenu()
 {
     cout << "Exposure Length test Calculator                 NPF-Rule (C)Frederic Michaud & Societe Atronomique du Havre (SAH)\n\n";
     cout << "Please enter your data in this format: crop k n p f theta\n\n";
     cout << "Explanation:\n\n";
-    cout << " crop          - Your sensor's crop factor e.g.: 1.6, unitless\n";
+    cout << " crop          - Your sensor's crop factor e.g.: '1.6', unitless\n";
     cout << " k = 1/2/3     - Determines Precision (precise/normal/trailing), unitless\n";
     cout << " n             - The lens' aperture, unitless\n";
     cout << " p             - Pixelpitch of the Sensor in um\n";
@@ -68,7 +68,7 @@ double MenuLogic::FovResults(double fovWidthAngle, double fovHeightAngle, double
     return 0.0;
 }
 
-int MenuLogic::CamDBMenu() 
+int MenuLogic::CamDBMenu()
 {
     cout << "Camera Test Database" << endl << endl;
     cout << "ERROR: Feature is not implemented yet\n";

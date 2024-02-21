@@ -1,19 +1,17 @@
 #include "MathsCompendium.h"
-#include <cmath>
+#include <math.h>
 
-double MathsCompendium::CalcExpo(double npfInputs[])
+void ExposureLength::CalcExpo()
 {
-    expoResults[0] = 500 / (npfInputs[0] * npfInputs[4]);
-    expoResults[1] = 300 / (npfInputs[0] * npfInputs[4]);
-    expoResults[2] = (35 * npfInputs[2] + 30 * npfInputs[3]) / npfInputs[4];
-    expoResults[3] = npfInputs[1] * ((16.856 * npfInputs[2] + 0.0997 * npfInputs[4] + 13.713 * npfInputs[3]) / (npfInputs[4] * cos(npfInputs[5] * (pi / 180))));
-    return expoResults[0], expoResults[1], expoResults[2], expoResults[3];
+	Output.R500 = constant.R500_NUM / (Input.cropFactor * Input.focalLength);
+	Output.R300 = constant.R300_NUM / (Input.cropFactor * Input.focalLength);
+	Output.NPFs = (constant.NPFs_APERTURE_MULT * Input.aperture + constant.NPFs_PIXELPITCH_MULT * Input.pixelPitch) / Input.focalLength;
+	Output.NPF = Input.precision * ((constant.NPF_APERTURE_MULT * Input.aperture + constant.NPF_FOCAL_LENGTH_MULT * Input.focalLength + constant.NPF_PIXELPITCH_MULT * Input.pixelPitch) / (Input.focalLength * cos(Input.declinationTheta * constant.RAD_TO_DEG)));
 }
 
-double MathsCompendium::CalcFoV(double fovInputs[])
+void FieldOfView::CalcFov()
 {
-    fovResults[0] = (2 * atan(fovInputs[1] / (2 * fovInputs[0]))) * (180 / pi);
-    fovResults[1] = (2 * atan(fovInputs[2] / (2 * fovInputs[0]))) * (180 / pi);
-    fovResults[2] = sqrt(fovInputs[1] * fovInputs[1] + fovInputs[2] * fovInputs[2]);
-    return fovResults[0], fovResults[1], fovResults[2];
-}
+	Output.widthFov = 2 * atan(Input.sensorWidth / (2 * Input.focalLength) * (constant.HALF_CIRCLE_DEGREES / constant.PI));
+	Output.heightFov = 2 * atan(Input.sensorWidth / (2 * Input.focalLength) * (constant.HALF_CIRCLE_DEGREES / constant.PI));
+	Output.diagFov = sqrt(Input.sensorHeight * Input.sensorHeight + Input.sensorWidth * Input.sensorWidth);
+};
