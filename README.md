@@ -60,6 +60,35 @@ The Android client is (for now) the only version meant for the use in the field.
 - get/make some proper button Icons going
 - find a way to port to and test on iOS
 
+# Current Roadmap
+------------------------------------------
+## June
+### Android
+- Complete Overhaul
+- adding basic profile system
+
+### WinGUI
+- full wipe of previously built apps
+- rebuild of base functions
+- rebuild of basic GUI
+
+### WinCLI
+- completing menus
+
+## July
+### Android
+- polishing GUI
+- improving profile system
+  - by including quick saving/loading
+  - and stream-lining normal saving/loading
+
+### WinGUI
+- implementation of basic profile system
+- polishing GUI
+
+### WinCLI
+- starting the Linux port
+
 # Special Thanks
 ------------------------------------------
 As mentioned before I want to thank especially Frédéric Michaud for permitting the use of his formulae.
