@@ -6,7 +6,7 @@ Not even more advanced amateurs might be able to say off-the-cuff which focal le
 # What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
 
-Every version contains specific formulae and accepts your setup's specifications as Inputs.
+Every version contains all formulae and accepts your setup's specifications as Inputs.
 It will then proceed to present you the requested results.
 
 ## What can each version do specifically?
@@ -52,11 +52,11 @@ As of now you can already save sensor profiles but not read them in again, so in
 The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's screen is set to full brightness.
 
 #### Lore
-- will get a complete overhaul GUI-wise [WiP]
-- profile system to save camera/sensor profiles is currently WiP
+- with _beta-v0.4.5_ the UI overhaul is done
+- profile system (saving and loading camera/sensor specs) is available since _beta-v0.4.5_ as well
 
 #### To-Do:
-- make the UI and especially entering the inputs smoother/less clunky [WiP - almost done]
+- entering the inputs in the database smoother/less clunky [WiP - almost done]
 - get/make some proper button Icons going
 - find a way to port to and test on iOS
 
@@ -64,8 +64,8 @@ The Android client is (for now) the only version meant for the use in the field.
 ------------------------------------------
 ## June
 ### Android
-- Complete Overhaul
-- adding basic profile system
+- ~Complete Overhaul~ ✓
+- ~adding basic profile system~ ✓
 
 ### WinGUI
 - full wipe of previously built apps
