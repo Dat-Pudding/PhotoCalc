@@ -83,10 +83,12 @@ The Android client is (for now) the only version meant for the use in the field.
   - and stream-lining normal saving/loading
 
 ### WinGUI
+- complete rebuild
 - implementation of basic profile system
 - polishing GUI
 
 ### WinCLI
+- check code for refactoring 
 - starting the Linux port
 
 # Special Thanks
