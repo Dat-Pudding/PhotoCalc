@@ -29,10 +29,8 @@
 # Executables
 *.out
 *.app
-.vs/PhotoCalc/v17/Browse.VC.db
 *.vsidx
 *.db
-.vs/PhotoCalc/
 *.vsidx
 *.db
 Unity/Assets/Icons/Button Icons/PhotoCalcMenuIcons_4096x.png
