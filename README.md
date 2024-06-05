@@ -4,14 +4,14 @@ Since a beginner usually isn't decked out with a tracking mount, means to create
 
 Not even more advanced amateurs might be able to say off-the-cuff which focal length they'd need to nicely fit their desired subject into the frame let alone beginners, that worry is also taken care of by the app.
 
-
+------------------------------------------
 # What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
 
 Every version contains all formulae and accepts your setup's specifications as Inputs.
 It will then proceed to present you the requested results.
 
-
+------------------------------------------
 # What can each version do specifically?
 ### Windows CLI
 The CLI client was the very first iteration and features a basic menu system, by entering one of the shown options you'll get to the actual features.
@@ -60,7 +60,7 @@ The Android client is (for now) the only version meant for the use in the field.
 - get/make some proper button Icons going
 - find a way to port to and test on iOS
 
-
+------------------------------------------
 # Current Roadmap
 ## June
 ### Android
@@ -92,7 +92,7 @@ The Android client is (for now) the only version meant for the use in the field.
 - fixing bugs
 - further polishing
 
-
+------------------------------------------
 # Special Thanks
 As mentioned before I want to thank especially Frédéric Michaud for permitting the use of his formulae.
 
