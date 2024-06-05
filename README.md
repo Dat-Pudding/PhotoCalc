@@ -4,11 +4,13 @@ Since a beginner usually isn't decked out with a tracking mount, means to create
 
 Not even more advanced amateurs might be able to say off-the-cuff which focal length they'd need to nicely fit their desired subject into the frame let alone beginners, that worry is also taken care of by the app.
 
+
 # What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
 
 Every version contains all formulae and accepts your setup's specifications as Inputs.
 It will then proceed to present you the requested results.
+
 
 # What can each version do specifically?
 ### Windows CLI
@@ -25,11 +27,11 @@ These results will be presented in degrees (unit symbol: ° ).
 - Since it only requires the command line and some minor processing power for the maths to work, it should run on any compatible Windows system no matter how weak the hardware is
 - Will likely get ported to Linux first due to it's simplicity and lack of graphics
 - rumor has it that a "Back" option is soon to be implemented
-
 #### To-Do:
 - fix the menu ("back" option)
 - port to and test on linux
 - find a way to port to and test on macOS
+
 
 ### Windows GUI
 The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
@@ -40,37 +42,34 @@ As of now you can already save sensor profiles but not read them in again, so in
 #### Lore
 - the Unity version is quite ugly, clunky and a PITA to work with, the all-new and improved version is currently WiP
 - the Qt port is discontinued but for now still available for download
-
 #### To-Do:
 - rebuild the entire thing
 - set up the basic profile system working
 - port to and test on Linux
 - find a way to port to and test on macOS/Apple chips
 
+
 ### Android
 The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's (or tablet's) screen is set to full brightness.
 
 #### Lore
-- with _beta-v0.4.5_ the UI overhaul is done
-- profile system (saving and loading camera/sensor specs) is available since _beta-v0.4.5_ as well
-
+- since _beta-v0.4.5_ the UI got an entire makeover
+- you can save and load your camera/sensor specifications into and out of the profile system since _beta-v0.4.5_
 #### To-Do:
-- entering the inputs in the database smoother/less clunky [WiP - almost done]
+- entering the inputs in the database interface smoother/less clunky [WiP - almost done]
 - get/make some proper button Icons going
 - find a way to port to and test on iOS
 
-# Current Roadmap
 
+# Current Roadmap
 ## June
 ### Android
 - ~Complete Overhaul~ ✓
 - ~adding basic profile system~ ✓
-
 ### WinGUI
 - ~full wipe of previously built apps~ ✓
 - rebuild of base functions
 - rebuild of basic GUI
-
 ### WinCLI
 - completing menus
 
@@ -80,12 +79,10 @@ The Android client is (for now) the only version meant for the use in the field.
 - improving profile system
   - by including quick saving/loading
   - and stream-lining normal saving/loading
-
 ### WinGUI
 - complete rebuild
 - implementation of basic profile system
 - polishing GUI
-
 ### WinCLI
 - check code for refactoring 
 - starting the Linux port
@@ -94,6 +91,7 @@ The Android client is (for now) the only version meant for the use in the field.
 ### Android
 - fixing bugs
 - further polishing
+
 
 # Special Thanks
 As mentioned before I want to thank especially Frédéric Michaud for permitting the use of his formulae.
