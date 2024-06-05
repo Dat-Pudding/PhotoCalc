@@ -12,7 +12,6 @@ It will then proceed to present you the requested results.
 
 # What can the different versions do specifically?
 ### Windows CLI
-------------------------------------------
 The CLI client was the very first iteration and features a basic menu system, by entering one of the shown options you'll get to the actual features.
 
 It can calculate the longest exposure time for light frames with the wanted amount of star-trailing and will present the results of an approximational "Rule of 300", the old "Rule of 500" for reference as well as the simplified and the full NPF 
@@ -33,7 +32,6 @@ These results will be presented in degrees (unit symbol: ° ).
 - find a way to port to and test on macOS
 
 ### Windows GUI
-------------------------------------------
 The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
 Additionally the "Rule of 300" approximation is now a "Rule of your custom integer number" though 260 for full frame and 350 for APS-C crop cameras seem to be the most accurate ones that one can still easily memorise.
 
@@ -50,7 +48,6 @@ As of now you can already save sensor profiles but not read them in again, so in
 - find a way to port to and test on macOS/Apple chips
 
 ### Android
-------------------------------------------
 The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's (or tablet's) screen is set to full brightness.
 
 #### Lore
