@@ -10,7 +10,7 @@ Not even more advanced amateurs might be able to say off-the-cuff which focal le
 Every version contains all formulae and accepts your setup's specifications as Inputs.
 It will then proceed to present you the requested results.
 
-## What can each version do specifically?
+# What's the difference between the platform versions?
 ### Windows CLI
 ------------------------------------------
 The CLI client was the very first iteration and features a basic menu system, by entering one of the shown options you'll get to the actual features.
