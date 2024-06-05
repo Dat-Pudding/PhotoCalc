@@ -68,7 +68,7 @@ The Android client is (for now) the only version meant for the use in the field.
 - ~adding basic profile system~ ✓
 
 ### WinGUI
-- ~full wipe of previously built apps~ ✔
+- ~full wipe of previously built apps~ ✓
 - rebuild of base functions
 - rebuild of basic GUI
 
