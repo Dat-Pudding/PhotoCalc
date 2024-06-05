@@ -63,8 +63,9 @@ The Android client is (for now) the only version meant for the use in the field.
 - find a way to port to and test on iOS
 
 # Current Roadmap
-------------------------------------------
+
 ## June
+------------------------------------------
 ### Android
 - ~Complete Overhaul~ ✓
 - ~adding basic profile system~ ✓
@@ -78,6 +79,7 @@ The Android client is (for now) the only version meant for the use in the field.
 - completing menus
 
 ## July
+------------------------------------------
 ### Android
 - polishing GUI
 - improving profile system
@@ -94,12 +96,12 @@ The Android client is (for now) the only version meant for the use in the field.
 - starting the Linux port
 
 ## August
+------------------------------------------
 ### Android
 - fixing bugs
 - further polishing
 
 # Special Thanks
-------------------------------------------
 As mentioned before I want to thank especially Frédéric Michaud for permitting the use of his formulae.
 
 And I also want to thank my long-term fiancée Nina for enduring my constant oversharing on the project and for bringing snacks when I forgot to eat again
