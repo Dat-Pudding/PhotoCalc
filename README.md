@@ -40,7 +40,7 @@ As of now you can already save sensor profiles but not read them in again, so in
 
 #### Lore
 - the Unity version is quite ugly, clunky and a PITA to work with, the all-new and improved version is currently WiP
-- the Qt port is discontinued
+- the Qt port is discontinued but for now still available for download
 
 #### To-Do:
 - get the profile system working (especially the ListView)
@@ -49,7 +49,7 @@ As of now you can already save sensor profiles but not read them in again, so in
 
 ### Android
 ------------------------------------------
-The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's screen is set to full brightness.
+The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's (or tablet's) screen is set to full brightness.
 
 #### Lore
 - with _beta-v0.4.5_ the UI overhaul is done
@@ -68,7 +68,7 @@ The Android client is (for now) the only version meant for the use in the field.
 - ~adding basic profile system~ ✓
 
 ### WinGUI
-- full wipe of previously built apps
+- ~full wipe of previously built apps~ ✔
 - rebuild of base functions
 - rebuild of basic GUI
 
@@ -90,6 +90,11 @@ The Android client is (for now) the only version meant for the use in the field.
 ### WinCLI
 - check code for refactoring 
 - starting the Linux port
+
+## August
+### Android
+- fixing bugs
+- further polishing
 
 # Special Thanks
 ------------------------------------------
