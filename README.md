@@ -65,39 +65,43 @@ The Android client is (for now) the only version meant for the use in the field.
 # Current Roadmap
 
 ## June
-------------------------------------------
 ### Android
+------------------------------------------
 - ~Complete Overhaul~ ✓
 - ~adding basic profile system~ ✓
 
 ### WinGUI
+------------------------------------------
 - ~full wipe of previously built apps~ ✓
 - rebuild of base functions
 - rebuild of basic GUI
 
 ### WinCLI
+------------------------------------------
 - completing menus
 
 ## July
-------------------------------------------
 ### Android
+------------------------------------------
 - polishing GUI
 - improving profile system
   - by including quick saving/loading
   - and stream-lining normal saving/loading
 
 ### WinGUI
+------------------------------------------
 - complete rebuild
 - implementation of basic profile system
 - polishing GUI
 
 ### WinCLI
+------------------------------------------
 - check code for refactoring 
 - starting the Linux port
 
 ## August
-------------------------------------------
 ### Android
+------------------------------------------
 - fixing bugs
 - further polishing
 
