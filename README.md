@@ -99,7 +99,8 @@ His reply to my request via e-mail:
 
 ```
 Hello Joshua
-No problem to use the NPF formula in your app, just credit the author Frederic Michaud and the Société Astronomique du Havre (www.sahavre.fr).
+No problem to use the NPF formula in your app, just credit the author Frederic Michaud
+and the Société Astronomique du Havre (www.sahavre.fr).
 
 Clear Sky
 Fred
