@@ -43,7 +43,8 @@ As of now you can already save sensor profiles but not read them in again, so in
 - the Qt port is discontinued but for now still available for download
 
 #### To-Do:
-- get the profile system working (especially the ListView)
+- rebuild the entire thing
+- set up the basic profile system working
 - port to and test on Linux
 - find a way to port to and test on macOS/Apple chips
 
