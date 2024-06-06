@@ -95,14 +95,5 @@ The Android client is (for now) the only version meant for the use in the field.
 ------------------------------------------
 # Special Thanks
 As mentioned before I want to thank especially Frédéric Michaud for permitting the use of his formulae.
-His reply to my request via e-mail: 
 
-```
-Hello Joshua
-No problem to use the NPF formula in your app, just credit the author Frederic Michaud
-and the Société Astronomique du Havre (www.sahavre.fr).
-
-Clear Sky
-Fred
-```
 And I also want to thank my long-term fiancée Nina for enduring my constant oversharing on the project and for bringing snacks when I forgot to eat again
