@@ -63,34 +63,48 @@ The Android client is (for now) the only version meant for the use in the field.
 ------------------------------------------
 # Current Roadmap
 ## June
-### Android
+### Android v0.4.6
 - ~Complete Overhaul~ ✓
 - ~adding basic profile system~ ✓
-### WinGUI
+### WinGUI v0.4.4
 - ~full wipe of previously built apps~ ✓
-- rebuild of base functions
-- rebuild of basic GUI
-### WinCLI
+- complete rebuild
+  - of base functions
+  - of basic GUI
+### WinCLI v0.0.0
 - completing menus
 
 ## July
-### Android
+### Android v0.5.0
 - polishing GUI
 - improving profile system
   - by including quick saving/loading
-  - and stream-lining normal saving/loading
-### WinGUI
-- complete rebuild
+  - ~and stream-lining normal saving/loading~ ✓
+### WinGUI v0.4.6
 - implementation of basic profile system
 - polishing GUI
-### WinCLI
+### WinCLI v0.0.0
 - check code for refactoring 
 - starting the Linux port
 
 ## August
-### Android
+### Android v0.5.1
 - fixing bugs
 - further polishing
+- *maybe get hands on iOS hardware*
+  - *if acquired: prepare iOS port*
+### WinGUI v0.5.0
+- polishing GUI
+- improving profile system
+  - by including quick saving/loading
+  - and stream-lining normal saving/loading
+- starting the Linux port
+### WinCLI v0.0.0
+- finished
+### LinuxCLI v0.0.0
+- fix possible issues
+- if necessary populate for various distros
+- finished
 
 ------------------------------------------
 # Special Thanks
