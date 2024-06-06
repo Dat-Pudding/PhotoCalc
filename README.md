@@ -11,6 +11,8 @@ Not even more advanced amateurs might be able to say off-the-cuff which focal le
 Every version contains all formulae and accepts your setup's specifications as Inputs.
 It will then proceed to present you the requested results.
 
+As of now only the Android client offers a fully functional profile system, this feature will soon be implemented into the other versions as well. Of course it will be integrated into every ported client version too.
+
 ------------------------------------------
 # What can each version do specifically?
 ### Windows CLI
@@ -25,7 +27,7 @@ These results will be presented in degrees (unit symbol: ° ).
 
 #### Lore
 - Since it only requires the command line and some minor processing power for the maths to work, it should run on any compatible Windows system no matter how weak the hardware is
-- Will likely get ported to Linux first due to it's simplicity and lack of graphics
+- Will likely get ported to Linux first due console/terminal-based functionality 
 - rumor has it that a "Back" option is soon to be implemented
 #### To-Do:
 - fix the menu ("back" option)
@@ -40,7 +42,7 @@ Additionally the "Rule of 300" approximation is now a "Rule of your custom integ
 As of now you can already save sensor profiles but not read them in again, so in the near future you won't have to type in the dimensions each time you start the application.
 
 #### Lore
-- the Unity version was quite ugly, clunky and a PITA to work with, therefore it got wiped and the all-new and improved version is currently WiP
+- the Unity version was ugly, clunky and barely usable, it now got wiped and the all-new and improved version is currently WiP
 - the Qt port is discontinued but for now still available for download to provide *some* desktop client
 #### To-Do:
 - rebuild the entire thing
@@ -53,10 +55,9 @@ As of now you can already save sensor profiles but not read them in again, so in
 The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's (or tablet's) screen is set to full brightness.
 
 #### Lore
-- since _beta-v0.4.5_ the UI got an entire makeover
-- you can save and load your camera/sensor specifications into and out of the profile system since _beta-v0.4.5_
+- with update _beta-v0.4.5_ the UI's entire look and feel has got a complete makeover 
+- you can save and load your camera/sensor specifications into and out of the profile system from version _beta-v0.4.5_ onwards
 #### To-Do:
-- entering the inputs in the database interface smoother/less clunky [WiP - almost done]
 - get/make some proper button Icons going
 - find a way to port to and test on iOS
 
