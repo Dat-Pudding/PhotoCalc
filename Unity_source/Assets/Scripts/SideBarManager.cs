@@ -82,6 +82,7 @@ public class SideBarManager : UnityEngine.MonoBehaviour
         CONTAINER_MAIN.SetActive(false);
         CONTAINER_ABOUT.SetActive(false);
         CONTAINER_CAMDB.SetActive(true);
+        CONTAINER_CAMDB.GetComponentInChildren<CamDbManager>().RefreshOnChange();
     }
 
     public void BackOrMainPage()
