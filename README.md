@@ -40,7 +40,7 @@ Additionally the "Rule of 300" approximation is now a "Rule of your custom integ
 As of now you can already save sensor profiles but not read them in again, so in the near future you won't have to type in the dimensions each time you start the application.
 
 #### Lore
-- the Unity version is quite ugly, clunky and a PITA to work with, therefore it got wiped and the all-new and improved version is currently WiP
+- the Unity version was quite ugly, clunky and a PITA to work with, therefore it got wiped and the all-new and improved version is currently WiP
 - the Qt port is discontinued but for now still available for download to provide *some* desktop client
 #### To-Do:
 - rebuild the entire thing
@@ -65,8 +65,8 @@ The Android client is (for now) the only version meant for the use in the field.
 > ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system*
 ## June
 ### Android v0.4.6
-- ~Complete Overhaul~ ✓
-- ~adding basic profile system~ ✓
+[✓] ~Complete Overhaul~ 
+[] ~adding basic profile system~ ✓
 ### WinGUI v0.4.4
 - ~full wipe of previously built apps~ ✓
 - complete rebuild
@@ -93,7 +93,7 @@ The Android client is (for now) the only version meant for the use in the field.
 ### Android v0.5.1
 - fixing bugs
 - further polishing
-- *maybe get hands on iOS hardware*
+- *maybe I can get my hands on iOS hardware*
   - *if acquired: prepare iOS port*
 ### WinGUI v0.5.0
 - polishing GUI
@@ -104,7 +104,7 @@ The Android client is (for now) the only version meant for the use in the field.
 ### WinCLI v0.0.0
 - finished
 ### LinuxCLI v0.0.0
-- fix possible issues
+- fix possible issues from port
 - if necessary populate for various distros
 - finished
 
