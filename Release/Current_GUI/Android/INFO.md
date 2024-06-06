@@ -1,4 +1,4 @@
-# What does the suffix letter mean
+# How do the versions work
 The version number is has either "d", "t" or "r" appended.
 ### Suffix Key:
 - "d" indicates that it's a developement build to which a debugger and profiler can be attached
