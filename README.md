@@ -66,7 +66,7 @@ The Android client is (for now) the only version meant for the use in the field.
 ## June
 ### Android v0.4.6
 [✓] ~Complete Overhaul~ 
-[] ~adding basic profile system~ ✓
+[✓] ~adding basic profile system~ 
 ### WinGUI v0.4.4
 - ~full wipe of previously built apps~ ✓
 - complete rebuild
