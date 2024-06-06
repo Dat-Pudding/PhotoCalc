@@ -40,8 +40,8 @@ Additionally the "Rule of 300" approximation is now a "Rule of your custom integ
 As of now you can already save sensor profiles but not read them in again, so in the near future you won't have to type in the dimensions each time you start the application.
 
 #### Lore
-- the Unity version is quite ugly, clunky and a PITA to work with, the all-new and improved version is currently WiP
-- the Qt port is discontinued but for now still available for download
+- the Unity version is quite ugly, clunky and a PITA to work with, therefore it got wiped and the all-new and improved version is currently WiP
+- the Qt port is discontinued but for now still available for download to provide *some* desktop client
 #### To-Do:
 - rebuild the entire thing
 - set up the basic profile system working
