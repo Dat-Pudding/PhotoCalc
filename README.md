@@ -69,7 +69,7 @@ The Android client is (for now) the only version meant for the use in the field.
 - [✓] ~adding basic profile system~ 
 ### WinGUI v0.4.4
 - [✓] ~full wipe of previously built apps~ 
-- [ ]complete rebuild
+- [ ] complete rebuild
   - [ ] of base functions
   - [ ] of basic GUI
 ### WinCLI v0.0.0
