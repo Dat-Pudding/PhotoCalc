@@ -1,6 +1,7 @@
 Easy Game Indie License - Version 1.1 | EGILv1.1 - June 04th, 2024
 
 Copyright (C) for the Software held by Joshua Ostwald <ostwald.joshua@gmail.com>
+
 Copyright (C) for the NPF and NPFs formulae held by Frédéric Michaud from the Societé Astronomique du Havre <http://www.sahavre.fr/>
 
 
