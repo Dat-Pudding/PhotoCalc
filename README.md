@@ -80,7 +80,8 @@ The Android client is (for now) the only version meant for the use in the field.
 - polishing GUI
 - improving profile system
   - by including quick saving/loading
-  - ~and stream-lining normal saving/loading~ ✓
+  - and stream-lining normal saving/loading
+    - e.g. adding a remove button for saved profiles
 ### WinGUI v0.4.6
 - implementation of basic profile system
 - polishing GUI
