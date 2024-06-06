@@ -62,6 +62,7 @@ The Android client is (for now) the only version meant for the use in the field.
 
 ------------------------------------------
 # Current Roadmap
+> ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system*
 ## June
 ### Android v0.4.6
 - ~Complete Overhaul~ ✓
