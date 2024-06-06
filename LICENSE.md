@@ -1,4 +1,4 @@
-Easy Game Indie License - Version 1.0 | EGILv1.1 - June 04th, 2024
+Easy Game Indie License - Version 1.1 | EGILv1.1 - June 04th, 2024
 
 Copyright (C) by Joshua Ostwald <ostwald.joshua@gmail.com>
 
