@@ -65,8 +65,8 @@ The Android client is (for now) the only version meant for the use in the field.
 > ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system*
 ## June
 ### Android v0.4.6
-[✓] ~Complete Overhaul~ 
-[✓] ~adding basic profile system~ 
+- [✓] ~Complete Overhaul~ 
+- [✓] ~adding basic profile system~ 
 ### WinGUI v0.4.4
 - ~full wipe of previously built apps~ ✓
 - complete rebuild
