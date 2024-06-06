@@ -68,45 +68,45 @@ The Android client is (for now) the only version meant for the use in the field.
 - [✓] ~Complete Overhaul~ 
 - [✓] ~adding basic profile system~ 
 ### WinGUI v0.4.4
-- ~full wipe of previously built apps~ ✓
-- complete rebuild
-  - of base functions
-  - of basic GUI
+- [✓] ~full wipe of previously built apps~ 
+- [ ]complete rebuild
+  - [ ] of base functions
+  - [ ] of basic GUI
 ### WinCLI v0.0.0
-- completing menus
+- [ ] completing menus
 
 ## July
 ### Android v0.5.0
-- polishing GUI
-- improving profile system
-  - by including quick saving/loading
-  - and stream-lining normal saving/loading
-    - e.g. adding a remove button for saved profiles
+- [ ] polishing GUI
+- [ ] improving profile system
+  - [ ] by including quick saving/loading
+  - [ ] and stream-lining normal saving/loading
+    - [ ] e.g. adding a remove button for saved profiles
 ### WinGUI v0.4.6
-- implementation of basic profile system
-- polishing GUI
+- [ ] implementation of basic profile system
+- [ ] polishing GUI
 ### WinCLI v0.0.0
-- check code for refactoring 
-- starting the Linux port
+- [ ] check code for refactoring 
+- [ ] starting the Linux port
 
 ## August
 ### Android v0.5.1
-- fixing bugs
-- further polishing
+- [ ] fixing bugs
+- [ ] further polishing
 - *maybe I can get my hands on iOS hardware*
   - *if acquired: prepare iOS port*
 ### WinGUI v0.5.0
-- polishing GUI
-- improving profile system
-  - by including quick saving/loading
-  - and stream-lining normal saving/loading
-- starting the Linux port
+- [ ] polishing GUI
+- [ ] improving profile system
+  - [ ] by including quick saving/loading
+  - [ ] and stream-lining normal saving/loading
+- [ ] starting the Linux port
 ### WinCLI v0.0.0
-- finished
+- [ ] finished
 ### LinuxCLI v0.0.0
-- fix possible issues from port
-- if necessary populate for various distros
-- finished
+- [ ] fix possible issues from port
+- [ ] if necessary populate for various distros
+- [ ] finished
 
 ------------------------------------------
 # Special Thanks
