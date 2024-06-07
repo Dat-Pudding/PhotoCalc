@@ -1,12 +1,6 @@
-using System.IO;
-using System.Linq;
-using System.Runtime.Serialization.Formatters.Binary;
-using UnityEngine;
-
-
 public class DataHandler : UnityEngine.MonoBehaviour
 {
-    [UnityEngine.SerializeField, Header("Code References")]
+    [UnityEngine.SerializeField, UnityEngine.Header("Code References")]
     public CamDbManager CDM;
 
     public string camNameToSave;
@@ -27,7 +21,7 @@ public class DataHandler : UnityEngine.MonoBehaviour
 
         if (CDM.GatherInputs())
         {
-            BinaryFormatter bf = new BinaryFormatter();
+            System.Runtime.Serialization.Formatters.Binary.BinaryFormatter bf = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
 
             System.IO.FileStream file = System.IO.File.Create(UnityEngine.Application.persistentDataPath + "/CamProfiles/" + camNameToSave + ".camDB");
             SavedData data = new SavedData();
@@ -51,7 +45,7 @@ public class DataHandler : UnityEngine.MonoBehaviour
 
         if (System.IO.File.Exists(camNameToLoad))
         {
-            BinaryFormatter bf = new BinaryFormatter();
+            System.Runtime.Serialization.Formatters.Binary.BinaryFormatter bf = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
 
             System.IO.FileStream file = System.IO.File.Open(camNameToLoad, System.IO.FileMode.Open);
             SavedData data = (SavedData)bf.Deserialize(file);
@@ -81,11 +75,9 @@ public class DataHandler : UnityEngine.MonoBehaviour
         if (System.IO.File.Exists(deletePath))
         {
             System.IO.File.Delete(deletePath);
-            File.Delete(deletePath);
 
             UnityEngine.Debug.Log("File removed successfully.");
         }
-
         else
         {
             UnityEngine.Debug.Log("File could not be removed. Has it been moved or deleted?");

@@ -1,12 +1,10 @@
-using UnityEngine;
-
 public class ExpoManager : UnityEngine.MonoBehaviour
 {
-    [UnityEngine.SerializeField, Header("Code References")]
+    [UnityEngine.SerializeField, UnityEngine.Header("Code References")]
     public Maths MATHS;
     public SideBarManager SBM;
 
-    [UnityEngine.SerializeField, Header("Editor References")]
+    [UnityEngine.SerializeField, UnityEngine.Header("Editor References")]
     public TMPro.TMP_InputField INPUTFIELD_FL_EXPO;
     public TMPro.TMP_InputField INPUTFIELD_AP_EXPO;
     public TMPro.TMP_InputField INPUTFIELD_PP_EXPO;

@@ -1,7 +1,4 @@
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using TMPro;
 using Unity.VisualScripting;
 
 public class CamDbManager : UnityEngine.MonoBehaviour
@@ -39,7 +36,7 @@ public class CamDbManager : UnityEngine.MonoBehaviour
         if (System.IO.Directory.Exists(dirPath))
         {
             int index = 0;
-            List<string> refreshPaths = System.IO.Directory.GetFiles(dirPath, "*.camDB").ToList();
+            System.Collections.Generic.List<string> refreshPaths = System.IO.Directory.GetFiles(dirPath, "*.camDB").ToList();
             fileSelector.ClearOptions();
             fileSelector.AddOptions(refreshPaths);
             fileSelector.captionText.text = fileSelector.options[fileSelector.value].text.TrimStart(dirPath);
