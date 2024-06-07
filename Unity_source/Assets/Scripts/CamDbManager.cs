@@ -1,4 +1,7 @@
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using TMPro;
 using Unity.VisualScripting;
 
 public class CamDbManager : UnityEngine.MonoBehaviour
@@ -24,6 +27,21 @@ public class CamDbManager : UnityEngine.MonoBehaviour
         dirPath = UnityEngine.Application.persistentDataPath + "/CamProfiles/";
 
         DirectoryCheck(dirPath);
+    }
+
+    public void RefreshDropdownList()
+    {
+        if (!System.IO.Directory.Exists(dirPath))
+        {
+            System.IO.DirectoryInfo dir = System.IO.Directory.CreateDirectory(UnityEngine.Application.persistentDataPath + "/CamProfiles/");
+        }
+
+        if (System.IO.Directory.Exists(dirPath))
+        {
+            List<string> refreshPaths = System.IO.Directory.GetFiles(dirPath, "*.camDB").ToList();
+            fileSelector.ClearOptions();
+            fileSelector.AddOptions(refreshPaths);
+        }
     }
 
     public void SpreadLoadedData(string name, float cf, float pp, float width, float height)
