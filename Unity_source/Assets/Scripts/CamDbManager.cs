@@ -38,9 +38,23 @@ public class CamDbManager : UnityEngine.MonoBehaviour
 
         if (System.IO.Directory.Exists(dirPath))
         {
+            int index = 0;
             List<string> refreshPaths = System.IO.Directory.GetFiles(dirPath, "*.camDB").ToList();
             fileSelector.ClearOptions();
             fileSelector.AddOptions(refreshPaths);
+            fileSelector.captionText.text = fileSelector.options[fileSelector.value].text.TrimStart(dirPath);
+            foreach (string path in refreshPaths)
+            {
+                fileSelector.options[index].text = path.TrimStart(dirPath);
+                ++index;
+
+                UnityEngine.Debug.Log("Retrieved file '" + fileSelector.options[index].text + "'");
+            }
+            UnityEngine.Debug.Log("Retrieved all files at '" + dirPath + "'");
+        }
+        else
+        {
+            UnityEngine.Debug.Log("Couldn't retrieve files. Please open an issue on GitHub");
         }
     }
 
