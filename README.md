@@ -81,8 +81,8 @@ The Android client is (for now) the only version meant for the use in the field.
 - [ ] polishing GUI
 - [ ] improving profile system
   - [ ] by including quick saving/loading
-  - [ ] and stream-lining normal saving/loading
-    - [ ] e.g. adding a remove button for saved profiles
+  - [✓] ~and stream-lining normal saving/loading~
+    - [✓] ~e.g. adding a remove button for saved profiles~
 ### WinGUI v0.4.6
 - [ ] implementation of basic profile system
 - [ ] polishing GUI
@@ -113,4 +113,4 @@ The Android client is (for now) the only version meant for the use in the field.
 # Special Thanks
 As mentioned before I want to thank especially Frédéric Michaud for permitting the use of his formulae.
 
-And I also want to thank my long-term fiancée Nina for enduring my constant oversharing on the project and for bringing snacks when I forgot to eat again
+And I also want to thank my fiancée Nina for enduring my constant oversharing on the project and for bringing snacks when I forgot to eat again
