@@ -13,6 +13,7 @@ All `pre-release` version numbers begin with one of these prefixes:
 - `pre-alpha`
 - `alpha`
 - `beta`
+
 Any `full-release` builds will have no prefix but will be constructed the same way in all other aspects.
 
 ### Version number
