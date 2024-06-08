@@ -6,7 +6,7 @@ In this form the version number `v1.0.0r` poses the first full-release version w
 
 It will always follow the structure of:
 
-`[prefix]`- + v`[full version]`.`[intermediate version]`.`[iteration]` + `[release branch]` + `[patch on branch]
+`[prefix]`- + v`[full version]`.`[intermediate version]`.`[iteration]` + `[release branch]` + `[patch on branch]`
 
 ### Prefix
 All `pre-release` version numbers begin with one of these prefixes:
