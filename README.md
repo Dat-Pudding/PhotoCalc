@@ -4,6 +4,23 @@ Since a beginner usually isn't decked out with a tracking mount, means to create
 
 Not even more advanced amateurs might be able to say off-the-cuff which focal length they'd need to nicely fit their desired subject into the frame let alone beginners, that worry is also taken care of by the app.
 
+### The bare minimum setup
+For this app to be useful you'll need at least:
+- some sort of camera
+> *but phone sensor support is a bit tight as of now*
+- some way to hold the camera still enough for the light frames
+
+### The ideal setup
+To fully profit of all functions you'll need:
+- a system camera
+- lenses (at least one)
+- tripod (as rigid as possible)
+- intervalometer
+
+### Setups beyond
+As soon as you add a tracker (and autoguider) to your setup the exposure time calculations will become less relevant if still relevant at all.
+But even if you've outgrown most of its features the Field of View calculations can still help setting up the correct custom profiles in Stellarium (which by then you'll likely already own) or other similar apps that let you set specific viewports to pre-check your framing
+
 ------------------------------------------
 # What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
