@@ -73,20 +73,19 @@ The Android client is (for now) the only version meant for the use in the field.
 - [ ] complete rebuild
   - [ ] of base functions
   - [ ] of basic GUI
-### WinCLI v0.0.0
+### WinCLI v0.1.3
 - [ ] completing menus
 
 ## July
 ### Android v0.5.0
 - [ ] polishing GUI
 - [ ] improving profile system
-  - [ ] by including quick saving/loading
-  - [✓] ~and stream-lining normal saving/loading~
-    - [✓] ~e.g. adding a remove button for saved profiles~
+  - [✓] ~stream-lining normal saving/loading~
+  - [✓] ~adding a remove button for saved profiles~
 ### WinGUI v0.4.6
 - [ ] implementation of basic profile system
 - [ ] polishing GUI
-### WinCLI v0.0.0
+### WinCLI v0.2.0
 - [ ] check code for refactoring 
 - [ ] starting the Linux port
 
@@ -102,12 +101,33 @@ The Android client is (for now) the only version meant for the use in the field.
   - [ ] by including quick saving/loading
   - [ ] and stream-lining normal saving/loading
 - [ ] starting the Linux port
-### WinCLI v0.0.0
-- [ ] finished
-### LinuxCLI v0.0.0
+### WinCLI v0.2.1
+- [ ] design and integrate profile system
+### LinuxCLI v0.2.1
 - [ ] fix possible issues from port
+- [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
-- [ ] finished
+
+## Future
+### Android v1.0.0
+- [ ] including quick saving/loading
+- [ ] including special options to accommodate for phone sensor/camera profiles
+
+### WindowsGUI v1.0.0
+- [ ] including quick saving/loading
+- [ ] including special options to accommodate for phone sensor/camera profiles
+
+### LinuxGUI v1.0.0
+- [ ] including quick saving/loading
+- [ ] including special options to accommodate for phone sensor/camera profiles
+
+### WinCLI v0.5.0
+- [ ] refining menus
+- [ ] including special options to accommodate for phone sensor/camera profiles
+
+### LinuxCLI v0.5.0
+- [ ] refining menus
+- [ ] including special options to accommodate for phone sensor/camera profiles
 
 ------------------------------------------
 # Special Thanks
