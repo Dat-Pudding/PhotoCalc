@@ -16,22 +16,22 @@ Is defined as the mathematical equations behind the abbreviations of "NPF" and "
 
 # Permissions
 Any person or organisation is allowed to
-- use the
-- display
-- execute
+- use,
+- display,
+- or execute
 the Software for private and commercial purposes.
 
 Furthermore it is permitted to
-- prepare modifications for
-- prepare derivative works of
-- commercially distribute modifications for
-- commercially distribute derivative works of
+- prepare modifications for,
+- prepare derivative works of,
+- commercially distribute modifications for,
+- or commercially distribute derivative works of
 the Software as well as furnishing the Software to third parties to do any of the above without compensation or liabilities towards the copyright owner - except for the conditions in this license.
 
 
 # Conditions
 The above Permissions are only granted as long as ALL of the following conditions are met in their entirety:
-- the copyright notices in the Software must be included in all copies of the Software
+- at least one copy of all copyright notices coming with or being included in the Software must be included in all copies of the Software
   - this includes all isolated parts, all derivative works of an modifications for the Software
 - this license may only be altered to include the according copyright holder of derivative works of or modifications for the Software in the list above "Definitions"
 
