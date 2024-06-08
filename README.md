@@ -42,41 +42,14 @@ After calculating it will give you the results in seconds (unit symbol: s ).
 Also integrated is the capability to calculate the respective field of view along your sensor's (and thereby frame) short and long edge as well as the sensor's diagonal in relation to your focal length and sensor dimensions. 
 These results will be presented in degrees (unit symbol: ° ).
 
-#### Lore
-- Since it only requires the command line and some minor processing power for the maths to work, it should run on any compatible Windows system no matter how weak the hardware is
-- Will likely get ported to Linux first due console/terminal-based functionality 
-- rumor has it that a "Back" option is soon to be implemented
-#### To-Do:
-- fix the menu ("back" option)
-- port to and test on linux
-- find a way to port to and test on macOS
-
-
 ### Desktop GUI
 The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
 Additionally the "Rule of 300" approximation is now a "Rule of your custom integer number" though 260 for full frame and 350 for APS-C crop cameras seem to be the most accurate ones that one can still easily memorise.
 
 As of now you can already save sensor profiles but not read them in again, so in the near future you won't have to type in the dimensions each time you start the application.
 
-#### Lore
-- the Unity version was ugly, clunky and barely usable, it now got wiped and the all-new and improved version is currently WiP
-- the Qt port is discontinued but for now still available for download to provide *some* desktop client
-#### To-Do:
-- rebuild the entire thing
-- set up the basic profile system working
-- port to and test on Linux
-- find a way to port to and test on macOS/Apple chips
-
-
 ### Mobile
 The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's (or tablet's) screen is set to full brightness.
-
-#### Lore
-- with update _beta-v0.4.5_ the UI's entire look and feel has got a complete makeover 
-- you can save and load your camera/sensor specifications into and out of the profile system from version _beta-v0.4.5_ onwards
-#### To-Do:
-- get/make some proper button Icons going
-- find a way to port to and test on iOS
 
 ------------------------------------------
 # Current Roadmap
