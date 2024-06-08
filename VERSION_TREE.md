@@ -7,6 +7,6 @@ WinCLIv0.1.0____WinGUIv0.2.0
      |               |
      |          WinGUIv0.2.3_________AndroidGUIv0.2.1
      |               |                      |
-     |===============|======================|=======current
+     |===============|======================|============> current versions below
 WinCLIv0.1.3    WinGUIv0.3.6         AndroidGUIv0.4.6r
 ```
