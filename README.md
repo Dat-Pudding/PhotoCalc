@@ -7,7 +7,7 @@ Not even more advanced amateurs might be able to say off-the-cuff which focal le
 ### The bare minimum setup
 For this app to be useful you'll need at least:
 - some sort of camera
-> *but phone sensor support is a bit tight as of now*
+> *but phone sensor support due to their size is a bit tight as of now*
 - some way to hold the camera still enough for the light frames
 
 ### The ideal setup
