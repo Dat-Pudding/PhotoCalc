@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.JoshuaOstwald.PhotoCalc"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="beta-v0.4.4" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030000" />
+21-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-54
+21-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:19-51
+22    <uses-feature
+22-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-15:36
+23        android:name="android.hardware.vulkan.version"
+23-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-55
+24        android:required="false" />
+24-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-33
+25    <uses-feature
+25-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-52
+27        android:required="false" />
+27-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-63
+30        android:required="false" />
+30-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-72
+33        android:required="false" />
+33-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-33
+34
+35    <application
+35-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-126
+36        android:debuggable="true"
+37        android:extractNativeLibs="true"
+37-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:18-50
+38        android:icon="@mipmap/app_icon"
+38-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+39        android:label="@string/app_name"
+39-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+40        android:roundIcon="@mipmap/app_icon_round" >
+40-->A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:81-123
+41        <meta-data
+41-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-29:33
+42            android:name="unity.splash-mode"
+42-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-45
+43            android:value="0" />
+43-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-30
+44        <meta-data
+44-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-32:36
+45            android:name="unity.splash-enable"
+45-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-47
+46            android:value="True" />
+46-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-33
+47        <meta-data
+47-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-35:36
+48            android:name="unity.launch-fullscreen"
+48-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-51
+49            android:value="True" />
+49-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-33
+50        <meta-data
+50-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:37
+51            android:name="unity.allow-resizable-window"
+51-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-56
+52            android:value="False" />
+52-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-34
+53        <meta-data
+53-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:50
+54            android:name="notch.config"
+54-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-40
+55            android:value="portrait|landscape" />
+55-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
+56        <meta-data
+56-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:36
+57            android:name="unity.auto-report-fully-drawn"
+57-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-57
+58            android:value="true" />
+58-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-33
+59
+60        <activity
+60-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:9-67:20
+61            android:name="com.unity3d.player.UnityPlayerActivity"
+61-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-66
+62            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+62-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-194
+63            android:exported="true"
+63-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-36
+64            android:hardwareAccelerated="false"
+64-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-48
+65            android:launchMode="singleTask"
+65-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-44
+66            android:resizeableActivity="false"
+66-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-47
+67            android:screenOrientation="portrait"
+67-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-49
+68            android:theme="@style/UnityThemeSelector" >
+68-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-54
+69            <intent-filter>
+69-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-59:29
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:17-77
+70-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:27-74
+71
+72                <action android:name="android.intent.action.MAIN" />
+72-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:17-69
+72-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:25-66
+73            </intent-filter>
+74
+75            <meta-data
+75-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-63:40
+76                android:name="unityplayer.UnityActivity"
+76-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:17-57
+77                android:value="true" />
+77-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-37
+78            <meta-data
+78-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-66:40
+79                android:name="notch_support"
+79-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:17-45
+80                android:value="true" />
+80-->[:unityLibrary] A:\Projekt\Photocalc\PhotoCalc Mobile\PhotoCalc\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-37
+81        </activity>
+82    </application>
+83
+84</manifest>
