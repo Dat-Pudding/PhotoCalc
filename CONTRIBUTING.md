@@ -51,3 +51,5 @@ Please stick to a couple of habits when committing pushes to your fork
 
 - the commit description has to describe the worked-on details in key points 
 > **Example:** *- drop-down list will refresh upon leaving camDbPage*
+
+Besides that just make sure you only ever commit towards the specific branch and only ever set a pr to the specific branch. Do Not open a PR to master!
