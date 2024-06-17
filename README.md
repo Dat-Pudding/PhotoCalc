@@ -1,3 +1,6 @@
+Welcome to this repository. Here's a quick overview:
+|<h2>Table of contents</h2>
+|:---------------:|
 ## Who is this for?
 This application is specifically for astro photographers - this doesn't mean that it's not useful for other genres.
 Since a beginner usually isn't decked out with a tracking mount, means to create proper flats or a red flashlight, the android app is recommended for it's feature set specifically addressing these "hardware issues" for field-use. 
