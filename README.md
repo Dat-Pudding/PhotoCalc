@@ -1,4 +1,4 @@
-# Who is this for?
+## Who is this for?
 This application is specifically for astro photographers - this doesn't mean that it's not useful for other genres.
 Since a beginner usually isn't decked out with a tracking mount, means to create proper flats or a red flashlight, the android app is recommended for it's feature set specifically addressing these "hardware issues" for field-use. 
 
@@ -23,7 +23,7 @@ But even if you've outgrown most of its features the Field of View calculations 
 
 ---
 
-# What can it do?
+## What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
 
 Every version contains all formulae and accepts your setup's specifications as Inputs.
@@ -33,7 +33,7 @@ As of now only the Android client offers a fully functional profile system, this
 
 ---
 
-# What can each version do specifically?
+## What can each version do specifically?
 ### Desktop CLI
 The CLI client was the very first iteration and features a basic menu system, by entering one of the shown options you'll get to the actual features.
 
