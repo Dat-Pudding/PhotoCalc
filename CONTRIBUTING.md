@@ -1,7 +1,7 @@
 # How to contribute
 There is a difference in development environment between for example the CLI client and the GUI clients. Because of that setting up the development environment for the version you want to contribute to will differ depending on the version/port.
 
-|<h2>Table of contents</h2><ul><li>1. [Downloading the project](#downloading-the-project)</li><li>2. [Setting up the development environment](#setting-up-the-development-environment)</li><ul><li>[Setting up for WinCLI](#WinCLI-Setup)</li><li>[Setting up for WinGUI](#WinGUI-Setup)</li><li>[Setting up for Android](#Android-Setup)</li></ul><li>3. [Contributing](#contributing)</li></ul>|
+|<h2>Table of contents</h2><ul><li>[Downloading the project](#downloading-the-project)</li><li>[Setting up the development environment](#setting-up-the-development-environment)</li><ul><li>[Setting up for WinCLI](#WinCLI-Setup)</li><li>[Setting up for WinGUI](#WinGUI-Setup)</li><li>[Setting up for Android](#Android-Setup)</li></ul><li>[Contributing](#contributing)</li></ul>|
 |:----------------|
 
 
