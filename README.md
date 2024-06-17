@@ -62,68 +62,68 @@ The Android client is (for now) the only version meant for the use in the field.
 
 ## Current Roadmap
 > ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system*
-## June
-### Android v0.4.6
+### June
+#### Android v0.4.6
 - [x] ~Complete Overhaul~ 
 - [x] ~adding basic profile system~ 
-### WinGUI v0.4.4
+#### WinGUI v0.4.4
 - [x] ~full wipe of previously built apps~ 
 - [ ] complete rebuild
   - [ ] of base functions
   - [ ] of basic GUI
-### WinCLI v0.1.3
+#### WinCLI v0.1.3
 - [ ] completing menus
 
-## July
-### Android v0.5.0
+### July
+#### Android v0.5.0
 - [ ] polishing GUI
 - [ ] improving profile system
   - [x] ~stream-lining normal saving/loading~
   - [x] ~adding a remove button for saved profiles~
-### WinGUI v0.4.6
+#### WinGUI v0.4.6
 - [ ] implementation of basic profile system
 - [ ] polishing GUI
-### WinCLI v0.2.0
+#### WinCLI v0.2.0
 - [ ] check code for refactoring 
 - [ ] starting the Linux port
 
-## August
-### Android v0.5.1
+### August
+#### Android v0.5.1
 - [ ] fixing bugs
 - [ ] further polishing
 - *maybe I can get my hands on iOS hardware*
   - *if acquired: prepare iOS port*
-### WinGUI v0.5.0
+#### WinGUI v0.5.0
 - [ ] polishing GUI
 - [ ] improving profile system
   - [ ] by including quick saving/loading
   - [ ] and stream-lining normal saving/loading
 - [ ] starting the Linux port
-### WinCLI v0.2.1
+#### WinCLI v0.2.1
 - [ ] design and integrate profile system
-### LinuxCLI v0.2.1
+#### LinuxCLI v0.2.1
 - [ ] fix possible issues from port
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
 
-## Future
-### Android v1.0.0
+### Future
+#### Android v1.0.0
 - [ ] including quick saving/loading
 - [ ] including special options to accommodate for phone sensor/camera profiles
 
-### WindowsGUI v1.0.0
+#### WindowsGUI v1.0.0
 - [ ] including quick saving/loading
 - [ ] including special options to accommodate for phone sensor/camera profiles
 
-### LinuxGUI v1.0.0
+#### LinuxGUI v1.0.0
 - [ ] including quick saving/loading
 - [ ] including special options to accommodate for phone sensor/camera profiles
 
-### WinCLI v0.5.0
+#### WinCLI v0.5.0
 - [ ] refining menus
 - [ ] including special options to accommodate for phone sensor/camera profiles
 
-### LinuxCLI v0.5.0
+#### LinuxCLI v0.5.0
 - [ ] refining menus
 - [ ] including special options to accommodate for phone sensor/camera profiles
 
@@ -134,7 +134,7 @@ The Android client is (for now) the only version meant for the use in the field.
 
 ---
 
-# Special Thanks
+## Special Thanks
 As mentioned before I want to thank especially Frédéric Michaud for permitting the use of his formulae.
 
 And I also want to thank my fiancée Nina for enduring my constant oversharing on the project and for bringing snacks when I forgot to eat again
