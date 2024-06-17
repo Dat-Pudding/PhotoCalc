@@ -22,10 +22,12 @@ Jump right to the relevant setup process for you:
 - [Setting up for Android](#Android-Setup)
 
 ### WinCLI Setup
-blabla
+> Will come later down the line
+Since it's technically almost complete the integration of the full project for contributions is not a priority right now. First the desktop GUI-client needs to be re-instantiated.
 
 ### WinGUI Setup
-blabla
+> Will come later this month
+Since there currently is no desktop GUI-client being worked on you cannot contribute to this branch
 
 ### Android Setup
 Since the Android version is built in the Unity engine there are some requirements to be fulfilled first (like installing Unity and Microsoft Visual Studio)
