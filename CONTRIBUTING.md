@@ -3,7 +3,7 @@ There is a difference in development environment between for example the CLI cli
 
 |Table of contents|
 |:----------------|
-| <ul><li>1. Setting up the development environment</li><ul><li>[Setting up for WinCLI](#WinCLI-Setup)</li> - [Setting up for WinGUI](#WinGUI-Setup)<br> - [Setting up for Android](#Android-Setup)|
+| <ul><li>1. Setting up the development environment</li><ul><li>[Setting up for WinCLI](#WinCLI-Setup)</li><li>[Setting up for WinGUI](#WinGUI-Setup)</li><li>[Setting up for Android](#Android-Setup)</li>|
 
 ## Setting up the development environment 
 Here's a little table of contents for you to jump right to the relevant setup process for you:
