@@ -3,6 +3,7 @@ There is a difference in development environment between for example the CLI cli
 
 |<h2>Table of contents</h2><br><ul><li>1. [Downloading the project](#downloading-the-project)</li><li>2. [Setting up the development environment](#setting-up-the-development-environment)</li><ul><li>[Setting up for WinCLI](#WinCLI-Setup)</li><li>[Setting up for WinGUI](#WinGUI-Setup)</li><li>[Setting up for Android](#Android-Setup)</li></ul><li>3. [Contributing](#contributing)</li></ul>||
 |:----------------|
+||
 
 
 ---
