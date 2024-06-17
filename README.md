@@ -7,7 +7,7 @@ Not even more advanced amateurs might be able to say off-the-cuff which focal le
 ### The bare minimum setup
 For this app to be useful you'll need at least:
 - some sort of camera
-> *but phone sensor support due to their size is a bit tight as of now*
+> *but phone sensor support is a bit tight as of now due to their size*
 - some way to hold the camera still enough for the light frames
 
 ### The ideal setup
@@ -21,7 +21,8 @@ To fully profit of all functions you'll need:
 As soon as you add a tracker (and autoguider) to your setup the exposure time calculations will become less relevant if still relevant at all.
 But even if you've outgrown most of its features the Field of View calculations can still help setting up the correct custom profiles in Stellarium (which by then you'll likely already own) or other similar apps that let you set specific viewports to pre-check your framing
 
-------------------------------------------
+---
+
 # What can it do?
 > ***NOTE:** There are differences in each version's capabilities and feature set, e.g. there's no need for field-use features on the desktop client*
 
@@ -30,7 +31,8 @@ It will then proceed to present you the requested results.
 
 As of now only the Android client offers a fully functional profile system, this feature will soon be implemented into the other versions as well. Of course it will be integrated into every ported client version too.
 
-------------------------------------------
+---
+
 # What can each version do specifically?
 ### Desktop CLI
 The CLI client was the very first iteration and features a basic menu system, by entering one of the shown options you'll get to the actual features.
@@ -51,7 +53,8 @@ As of now you can already save sensor profiles but not read them in again, so in
 ### Mobile
 The Android client is (for now) the only version meant for the use in the field. Additionally to the calculations it features a mostly red UI that serves as an red flashlight and a function to cast a solid white across the screen for taking flats, both of these special features work best when the phone's (or tablet's) screen is set to full brightness.
 
-------------------------------------------
+---
+
 # Current Roadmap
 > ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system*
 ## June
