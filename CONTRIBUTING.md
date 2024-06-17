@@ -8,6 +8,7 @@ There is a difference in development environment between for example the CLI cli
 |3. [Contributing](#contributing)
 
 ## Downloading the project
+
 Blabla clone repo blabla
 ---
 
@@ -24,6 +25,7 @@ blabla
 blabla
 
 ### Android Setup
+
 blabla
 ---
 
