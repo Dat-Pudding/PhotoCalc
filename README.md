@@ -100,7 +100,7 @@ The Android client is (for now) the only version meant for the use in the field.
 
 ## Future
 ### Android v1.0.0
-- [] including quick saving/loading
+- [x] including quick saving/loading
 - [] including special options to accommodate for phone sensor/camera profiles
 
 ### WindowsGUI v1.0.0
