@@ -10,6 +10,7 @@ There is a difference in development environment between for example the CLI cli
 ## Downloading the project
 
 Blabla clone repo blabla
+
 ---
 
 ## Setting up the development environment 
@@ -27,6 +28,7 @@ blabla
 ### Android Setup
 
 blabla
+
 ---
 
 ## Contributing 
