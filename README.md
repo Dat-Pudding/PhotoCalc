@@ -56,10 +56,10 @@ The Android client is (for now) the only version meant for the use in the field.
 > ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system*
 ## June
 ### Android v0.4.6
-- [✓] ~Complete Overhaul~ 
-- [✓] ~adding basic profile system~ 
+- [x] ~Complete Overhaul~ 
+- [x] ~adding basic profile system~ 
 ### WinGUI v0.4.4
-- [✓] ~full wipe of previously built apps~ 
+- [x] ~full wipe of previously built apps~ 
 - [ ] complete rebuild
   - [ ] of base functions
   - [ ] of basic GUI
@@ -70,8 +70,8 @@ The Android client is (for now) the only version meant for the use in the field.
 ### Android v0.5.0
 - [ ] polishing GUI
 - [ ] improving profile system
-  - [✓] ~stream-lining normal saving/loading~
-  - [✓] ~adding a remove button for saved profiles~
+  - [x] ~stream-lining normal saving/loading~
+  - [x] ~adding a remove button for saved profiles~
 ### WinGUI v0.4.6
 - [ ] implementation of basic profile system
 - [ ] polishing GUI
@@ -95,29 +95,29 @@ The Android client is (for now) the only version meant for the use in the field.
 - [ ] design and integrate profile system
 ### LinuxCLI v0.2.1
 - [ ] fix possible issues from port
-- [] design and integrate profile system
-- [] if necessary populate for various distros
+- [ ] design and integrate profile system
+- [ ] if necessary populate for various distros
 
 ## Future
 ### Android v1.0.0
-- [x] including quick saving/loading
-- [] including special options to accommodate for phone sensor/camera profiles
+- [ ] including quick saving/loading
+- [ ] including special options to accommodate for phone sensor/camera profiles
 
 ### WindowsGUI v1.0.0
-- [] including quick saving/loading
-- [] including special options to accommodate for phone sensor/camera profiles
+- [ ] including quick saving/loading
+- [ ] including special options to accommodate for phone sensor/camera profiles
 
 ### LinuxGUI v1.0.0
-- [] including quick saving/loading
-- [] including special options to accommodate for phone sensor/camera profiles
+- [ ] including quick saving/loading
+- [ ] including special options to accommodate for phone sensor/camera profiles
 
 ### WinCLI v0.5.0
-- [] refining menus
-- [] including special options to accommodate for phone sensor/camera profiles
+- [ ] refining menus
+- [ ] including special options to accommodate for phone sensor/camera profiles
 
 ### LinuxCLI v0.5.0
-- [] refining menus
-- [] including special options to accommodate for phone sensor/camera profiles
+- [ ] refining menus
+- [ ] including special options to accommodate for phone sensor/camera profiles
 
 ------------------------------------------
 # Special Thanks
