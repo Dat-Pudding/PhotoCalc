@@ -1,7 +1,7 @@
 Welcome to this repository. Here's a quick overview:
 
 |<h2>Table of contents</h2><ul><li>[Who is this for?](#woh-is-this-for?)</li><ul><li>[Bare Minimum Setup](#the-bare-minimum-setup)</li><li>[Ideal Setup](#the-ideal-setup)</li><li>[Beyond Ideal Setups](#setups-beyond)</li></ul><li>[Capabilities](#what-can-it-do?)</li><li>[Version-specific capabilities](#what-can-each-version-do?)</li><ul><li>[Desktop CLI](#desktop-cli)</li><li>[Desktop GUI](#desktop-gui)</li><li>[Mobile](#mobile)</li></ul><li>[Roadmap](#current-roadmap)</li><li>[Special Thanks](#special-thanks)</li></ul>|
-|:---------------:|
+|:---------------|
 
 ## Who is this for?
 This application is specifically for astro photographers - this doesn't mean that it's not useful for other genres.
