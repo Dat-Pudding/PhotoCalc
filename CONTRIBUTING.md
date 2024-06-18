@@ -46,7 +46,7 @@ After installing the IDE or setting up your unity Editor to use your own IDE you
 ## Contributing 
 Please stick to a couple of habits when committing pushes to your fork
 
-- the commit summary has to be `[roughly what you did]``[which general area you worked on]
+- the commit summary has to be `[roughly what you did]``[which general area you worked on]`
 > **Example:** *fixed button in side bar*
 
 - the commit description has to describe the worked-on details in key points
