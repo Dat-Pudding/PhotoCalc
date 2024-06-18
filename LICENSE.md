@@ -13,7 +13,6 @@ this license.
 ## "Formulae"
 Is defined as the mathematical equations behind the abbreviations of "NPF" and "simplified NPF" within the Software of which the latter is to abbreviate with "NPFs".
 
-
 # Permissions
 Any person or organisation is allowed to
 - use,
