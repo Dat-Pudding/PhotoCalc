@@ -6,10 +6,12 @@
 *.slo
 *.lo
 *.o
+*.asset
 
 # Precompiled Headers
 *.gch
 *.pch
+*.meta
 
 # Compiled Dynamic libraries
 *.so
