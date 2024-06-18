@@ -51,6 +51,6 @@ Please stick to a couple of habits when committing pushes to your fork
 
 - the commit description has to describe the worked-on details in key points
 - the description also has to directly address the issues it's resolving
-> **Example:** *- drop-down list will refresh upon leaving camDbPage* and in the next line *- resolves issue #123*
+> **Example:** *- drop-down list will refresh upon leaving camDbPage* **and in the next line** *- resolves issue #123*
 
 Besides that just make sure you only ever commit towards the specific branch and only ever set a pr to the specific branch. Do Not open a PR to master as these PRs will likely just be closed.
