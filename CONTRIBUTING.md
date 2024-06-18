@@ -3,12 +3,11 @@ There is a difference in development environment between for example the CLI cli
 
 ## For first-timers:
 Don't worry if this is your first time contributing, just focus on the issues labeled `good first issue` and feel free to ask potential questions in the issue comments of the issue you want to work on.
-I try my best to keep the repository and the code beginner-friendly and readable 
+I try my best to keep the repository, the issues and the code beginner-friendly and readable should nonetheless any questions arise feel free to ask away.
 
 
 |<h2>Table of contents</h2><ul><li>[Downloading the project](#downloading-the-project)</li><li>[Setting up the development environment](#setting-up-the-development-environment)</li><ul><li>[Setting up for WinCLI](#WinCLI-Setup)</li><li>[Setting up for WinGUI](#WinGUI-Setup)</li><li>[Setting up for Android](#Android-Setup)</li></ul><li>[Contributing](#contributing)</li></ul>|
 |:----------------|
-
 
 ---
 
