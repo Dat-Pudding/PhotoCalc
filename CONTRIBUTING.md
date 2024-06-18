@@ -34,7 +34,7 @@ Since the Android version is built in the Unity engine there are some requiremen
 
 1. If not already installed, download and install the unity hub
 2. Within then unity hub choose the most recent LTS version (as of now 2022.3)
-3. import `{yourRepoPath}/PhotoCalc/unity_source/PhotoCalc Mobile/` as project into unity
+3. import `{yourRepoPath}/PhotoCalc/unity_source/PhotoCalc/` as project "from disk" into Unity Hub
 4. Open the project through the Unity Hub
 5. Make sure that the Scene named `GUI` is being shown in the hierarchy to your left
 6. Navigate to `Assets/Scripts/` and double-click any C#-Script, you will be prompted to install MSVS or MSVSC.
