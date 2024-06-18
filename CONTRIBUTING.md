@@ -40,8 +40,9 @@ Since the Android version is built in the Unity engine there are some requiremen
 2. Within then unity hub choose the most recent LTS version (as of now 2022.3)
 3. import `{yourRepoPath}/PhotoCalc/unity_source/PhotoCalc/` as project "from disk" into Unity Hub
 4. Open the project through the Unity Hub
-5. Make sure that the Scene named `GUI` is being shown in the hierarchy to your left
-6. In the unity Editor navigate to `Assets/Scripts/` and double-click any C#-Script, you will be prompted to install MSVS or MSVSC.
+5. In the unity Editor navigate to `Assets/Scenes` and open the Scene named `GUI` with a double-click
+6. Unity will prompt you to install `TMPro`, in that pop-up just select "TMPro Essentials"
+7. In the Unity Editor navigate to `Assets/Scripts/` and double-click any C#-Script, you should be prompted to install MS Visual Studio or Visual Studio Code.
 
 After installing the IDE or setting up your unity Editor to use your own IDE you're good to go.
 
