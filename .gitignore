@@ -6,6 +6,7 @@
 *.slo
 *.lo
 *.o
+*.asset
 
 # Precompiled Headers
 *.gch
@@ -33,5 +34,4 @@
 *.db
 *.vsidx
 *.db
-Unity/Assets/Icons/Button Icons/PhotoCalcMenuIcons_4096x.png
 *.htm
