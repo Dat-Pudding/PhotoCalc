@@ -1,6 +1,11 @@
 # How to contribute
 There is a difference in development environment between for example the CLI client and the GUI clients. Because of that setting up the development environment for the version you want to contribute to will differ depending on the version/port.
 
+## For first-timers:
+Don't worry if this is your first time contributing, just focus on the issues labeled `good first issue` and feel free to ask potential questions in the issue comments of the issue you want to work on.
+I try my best to keep the repository and the code beginner-friendly and readable 
+
+
 |<h2>Table of contents</h2><ul><li>[Downloading the project](#downloading-the-project)</li><li>[Setting up the development environment](#setting-up-the-development-environment)</li><ul><li>[Setting up for WinCLI](#WinCLI-Setup)</li><li>[Setting up for WinGUI](#WinGUI-Setup)</li><li>[Setting up for Android](#Android-Setup)</li></ul><li>[Contributing](#contributing)</li></ul>|
 |:----------------|
 
@@ -44,7 +49,7 @@ After installing the IDE or setting up your unity Editor to use your own IDE you
 ---
 
 ## Contributing 
-Please stick to a couple of habits when committing pushes to your fork
+Please stick to a couple of habits when committing pushes to your fork. And be explicit with your naming in code for all things like `variables`, `functions/methods`, `classes/structs` et cetera.
 
 - the commit summary has to be `[roughly what you did]` `[which general area you worked on]`
 > **Example:** *fixed non-working buttons in side bar*
