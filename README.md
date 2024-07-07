@@ -49,7 +49,7 @@ rules which both were developed by Frédéric Michaud from the Société Astrono
 After calculating it will give you the results in seconds (format: `#,###s`).
 
 Also integrated is the capability to calculate the respective field of view along your sensor's (and thereby frame) short and long edge as well as the sensor's diagonal in relation to your focal length and sensor dimensions. 
-These results will be presented in degrees (unit symbol: `###,##°` ).
+These results will be presented in degrees (format: `###,##°` ).
 
 ### Desktop GUI
 The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
