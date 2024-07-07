@@ -46,10 +46,10 @@ The CLI client was the very first iteration and features a basic menu system, by
 
 It can calculate the longest exposure time for light frames with the wanted amount of star-trailing and will present the results of an approximational "Rule of 300", the old "Rule of 500" for reference as well as the simplified and the full NPF 
 rules which both were developed by Frédéric Michaud from the Société Astronomique du Havre (SAH) - Thanks for the extraordinarily friendly permission to use them. 
-After calculating it will give you the results in seconds (unit symbol: s ).
+After calculating it will give you the results in seconds (format: `#,###s`).
 
 Also integrated is the capability to calculate the respective field of view along your sensor's (and thereby frame) short and long edge as well as the sensor's diagonal in relation to your focal length and sensor dimensions. 
-These results will be presented in degrees (unit symbol: ° ).
+These results will be presented in degrees (unit symbol: `###,##°` ).
 
 ### Desktop GUI
 The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
