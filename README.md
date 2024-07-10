@@ -109,24 +109,25 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] implementing basic profile system
 #### WinCLI v0.2.1
 - [ ] design and integrate profile system
+- [ ] "finishing" Linux port
 #### LinuxCLI v0.2.1
 - [ ] fix possible issues from port
-- [ ] if necessary populate for various distros
+- [ ] populate for various distros
 
 ### September 
 #### Android v0.5.5
 - [ ] fixing bugs
 - [ ] further polishing
 - [ ] make packages of sensor profiles importable
-#### WinGUI v0.5.0
+#### WinGUI v0.5.2
 - [ ] polishing GUI
 - [ ] improving profile system
-  - [ ] by including quick saving/loading
-  - [ ] and stream-lining normal saving/loading
+  - [ ] stream-lining normal saving/loading
 - [ ] starting the Linux port
-#### WinCLI v0.2.1
-- [ ] design and integrate profile system
-#### LinuxCLI v0.2.1
+#### WinCLI v0.2.4
+- [ ] improve menus
+#### LinuxCLI v0.2.4
+- [ ] improve menus
 - [ ] fix possible issues from port
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
@@ -136,15 +137,16 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] fixing bugs
 - [ ] further polishing
 - [ ] integrating quick saving 
-#### WinGUI v0.5.0
+#### WinGUI v0.5.4
 - [ ] polishing GUI
 - [ ] improving profile system
-  - [ ] by including quick saving/loading
-  - [ ] and stream-lining normal saving/loading
-- [ ] starting the Linux port
-#### WinCLI v0.2.1
+  - [ ] including quick saving/loading
+- [ ] "finishing" the Linux port
+#### WinCLI v0.2.5
+- [ ] improve menus
 - [ ] design and integrate profile system
-#### LinuxCLI v0.2.1
+#### LinuxCLI v0.2.5
+- [ ] improve menus
 - [ ] fix possible issues from port
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
@@ -154,15 +156,17 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] fixing bugs
 - [ ] further polishing
 - [ ] integrating quick loading
-#### WinGUI v0.5.0
+#### WinGUI v0.5.5
 - [ ] polishing GUI
-- [ ] improving profile system
-  - [ ] by including quick saving/loading
-  - [ ] and stream-lining normal saving/loading
-- [ ] starting the Linux port
-#### WinCLI v0.2.1
+- [ ] make packages of sensor profiles exportable
+#### LinuxGUI v0.5.5
+- [ ] polishing GUI
+- [ ] make packages of sensor profiles exportable
+#### WinCLI v0.2.8
+- [ ] improve menus
 - [ ] design and integrate profile system
-#### LinuxCLI v0.2.1
+#### LinuxCLI v0.2.8
+- [ ] improve menus
 - [ ] fix possible issues from port
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
@@ -172,16 +176,22 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] fixing bugs
 - [ ] further polishing
 - [ ] implementation of quick saving/loading
-#### WinGUI v0.5.0
+#### WindowsGUI v0.5.8
+- [ ] fixing bugs
 - [ ] polishing GUI
-- [ ] improving profile system
-  - [ ] by including quick saving/loading
-  - [ ] and stream-lining normal saving/loading
-- [ ] starting the Linux port
-#### WinCLI v0.2.1
+- [ ] make packages of sensor profiles importable 
+#### LinuxGUI v0.5.8
+- [ ] fixing bugs
+- [ ] polishing GUI
+- [ ] make packages of sensor profiles importable 
+#### WinCLI v0.3.1
+- [ ] fixing bugs
+- [ ] improve menus
 - [ ] design and integrate profile system
-#### LinuxCLI v0.2.1
-- [ ] fix possible issues from port
+#### LinuxCLI v0.3.1
+- [ ] fixing bugs
+- [ ] improve menus
+- [ ] fixing possible issues from port
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
 
