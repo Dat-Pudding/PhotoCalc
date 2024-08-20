@@ -76,14 +76,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 ## Current Roadmap
 > ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system such as implemented but untested and inaccessible new features or accessable but incomplete or broken functionality*
 
-### June
-#### Android v0.4.6
-- [x] ~Complete Overhaul~ 
-- [x] ~adding basic profile system~ 
-#### WinGUI v0.4.4
-- [x] ~full wipe of previously built apps~
-
-### July
+### August
 #### Android v0.5.0
 - [ ] polishing GUI
 - [x] improving profile system
@@ -99,7 +92,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] check code for refactoring 
 - [ ] starting the Linux port
 
-### August
+### September
 #### Android v0.5.1
 - [ ] fixing bugs
 - [ ] further polishing
@@ -114,7 +107,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] fix possible issues from port
 - [ ] populate for various distros
 
-### September 
+### October
 #### Android v0.5.5
 - [ ] fixing bugs
 - [ ] further polishing
@@ -132,7 +125,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
 
-### October 
+### November 
 #### Android v0.5.7
 - [ ] fixing bugs
 - [ ] further polishing
@@ -151,7 +144,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
 
-### November 
+### December
 #### Android v0.5.9
 - [ ] fixing bugs
 - [ ] further polishing
@@ -168,30 +161,6 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 #### LinuxCLI v0.2.8
 - [ ] improve menus
 - [ ] fix possible issues from port
-- [ ] design and integrate profile system
-- [ ] if necessary populate for various distros
-
-### December 
-#### Android v0.6.0
-- [ ] fixing bugs
-- [ ] further polishing
-- [ ] implementation of quick saving/loading
-#### WindowsGUI v0.5.8
-- [ ] fixing bugs
-- [ ] polishing GUI
-- [ ] make packages of sensor profiles importable 
-#### LinuxGUI v0.5.8
-- [ ] fixing bugs
-- [ ] polishing GUI
-- [ ] make packages of sensor profiles importable 
-#### WinCLI v0.3.1
-- [ ] fixing bugs
-- [ ] improve menus
-- [ ] design and integrate profile system
-#### LinuxCLI v0.3.1
-- [ ] fixing bugs
-- [ ] improve menus
-- [ ] fixing possible issues from port
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
 
