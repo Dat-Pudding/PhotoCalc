@@ -59,7 +59,7 @@ Of course it will be integrated into every port.
 The CLI client was the very first iteration and features a basic menu system. By entering one of the shown options you can navigate to the specified functionality.
 
 ### Desktop GUI
-> ***NOTE:** The desktop GUI version is currently being completely re-worked, therefore the following description is off by quite a margin.
+> ***NOTE:** The desktop GUI version is currently being completely re-worked, therefore the following description is off by quite a margin.*
 
 ~The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
 Additionally the "Rule of 300" approximation is now a "Rule of your custom integer number" though 260 for full frame and 350 for APS-C crop cameras seem to be the most accurate ones that one can still easily memorise.
