@@ -62,9 +62,9 @@ The CLI client was the very first iteration and features a basic menu system. By
 > ***NOTE:** The desktop GUI version is currently being completely re-worked, therefore the following description is off by quite a margin.*
 
 ~The GUI client can do everything the CLI client can do but puts a more comfortable user experience and less crude menu options in front of the maths instead of the CLI client's little black window.
-Additionally the "Rule of 300" approximation is now a "Rule of your custom integer number" though 260 for full frame and 350 for APS-C crop cameras seem to be the most accurate ones that one can still easily memorise.
+Additionally the "Rule of 300" approximation is now a "Rule of your custom integer number" though 260 for full frame and 350 for APS-C crop cameras seem to be the most accurate ones that one can still easily memorise.~
 
-As of now you can already save sensor profiles but not read them in again, so in the near future you won't have to type in the dimensions each time you start the application.~
+~As of now you can already save sensor profiles but not read them in again, so in the near future you won't have to type in the dimensions each time you start the application.~
 
 ### Mobile
 The Android client is (for now) the only version meant for the use in the field. If the stars align and I can get my hands on an Apple device for development and testing, a future iOS version is planned.
