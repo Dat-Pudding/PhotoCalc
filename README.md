@@ -1,7 +1,6 @@
 [![Github All Releases](https://img.shields.io/github/downloads/Dat-Pudding/PhotoCalc/total.svg)](https://github.com/Dat-Pudding/PhotoCalc/releases)
 [![GitHub release](https://img.shields.io/github/release/Dat-Pudding/PhotoCalc/all.svg)](https://github.com/Dat-Pudding/PhotoCalc/releases)
 [![GitHub Release Date](https://img.shields.io/github/release-date/Dat-Pudding/PhotoCalc)](https://github.com/Dat-Pudding/PhotoCalc/releases)
-[![GitHub license](https://img.shields.io/github/license/Dat-Pudding/PhotoCalc.svg)](https://github.com/Dat-Pudding/PhotoCalc/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Dat-Pudding/PhotoCalc.svg)](https://github.com/Dat-Pudding/PhotoCalc/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Dat-Pudding/PhotoCalc.svg)](https://github.com/Dat-Pudding/PhotoCalc/network)
 # PhotoCalc on GitHub
