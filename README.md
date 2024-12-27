@@ -1,5 +1,10 @@
+[![Github All Releases](https://img.shields.io/github/downloads/Dat-Pudding/PhotoCalc/total.svg)](https://github.com/Dat-Pudding/PhotoCalc/releases)
+[![GitHub release](https://img.shields.io/github/release/Dat-Pudding/PhotoCalc/all.svg)](https://github.com/Dat-Pudding/PhotoCalc/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/Dat-Pudding/PhotoCalc)](https://github.com/Dat-Pudding/PhotoCalc/releases)
+[![GitHub license](https://img.shields.io/github/license/Dat-Pudding/PhotoCalc.svg)](https://github.com/Dat-Pudding/PhotoCalc/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Dat-Pudding/PhotoCalc.svg)](https://github.com/Dat-Pudding/PhotoCalc/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Dat-Pudding/PhotoCalc.svg)](https://github.com/Dat-Pudding/PhotoCalc/network)
 # PhotoCalc on GitHub
-Welcome to this repository. Here's a quick overview:
 
 |<h2>Table of contents</h2><ul><li>[Who is this for?](#who-is-this-for?)</li><ul><li>[Bare Minimum Setup](#minimum-requirements)</li><li>[Ideal Setup](#recommended-requirements)</li><li>[Beyond Ideal Setups](#setups-beyond-the-recommended)</li></ul><li>[Capabilities](#what-can-it-do?)</li><li>[Version-specific capabilities](#what-can-each-version-do?)</li><ul><li>[Desktop CLI](#desktop-cli)</li><li>[Desktop GUI](#desktop-gui)</li><li>[Mobile](#mobile)</li></ul><li>[Roadmap](#current-roadmap)</li><li>[Thanks](#thanks)</li><li>[Special Thanks](#special-thanks)</li></ul>|
 |:--|
