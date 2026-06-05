@@ -81,7 +81,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 ## Current Roadmap
 > ***NOTE:** Version numbers that go unmentioned on the roadmap will contain only minor changes to the last mentioned version for that operating system such as implemented but untested and inaccessible new features or accessable but incomplete or broken functionality*
 
-### August
+### Next Updates
 #### Android v0.5.0
 - [ ] polishing GUI
 - [x] improving profile system
@@ -97,7 +97,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] check code for refactoring 
 - [ ] starting the Linux port
 
-### September
+### Further Roadmap
 #### Android v0.5.1
 - [ ] fixing bugs
 - [ ] further polishing
@@ -112,7 +112,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] fix possible issues from port
 - [ ] populate for various distros
 
-### October
+### Further...
 #### Android v0.5.5
 - [ ] fixing bugs
 - [ ] further polishing
@@ -130,7 +130,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
 
-### November 
+### Further....
 #### Android v0.5.7
 - [ ] fixing bugs
 - [ ] further polishing
@@ -149,7 +149,7 @@ Additionally to the calculations it features a mostly red UI that serves as an r
 - [ ] design and integrate profile system
 - [ ] if necessary populate for various distros
 
-### December
+### Further
 #### Android v0.5.9
 - [ ] fixing bugs
 - [ ] further polishing
